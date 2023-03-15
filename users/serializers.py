@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
-from .models import CustomUser
+from .models import *
 import django.contrib.auth.password_validation as validators
 from django.contrib.auth import authenticate
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -36,7 +36,8 @@ class VerifyOtpSerializer(serializers.Serializer):
     email=serializers.EmailField(label="Email",write_only=True)
     otp=serializers.IntegerField(label="Otp")
     
-class LoginSerializer(serializers.Serializer):
+class LoginSerializer(serializers.Serializer):  
+
     """
     This serializer defines two fields for authentication:
       * username
@@ -76,3 +77,30 @@ class LoginSerializer(serializers.Serializer):
         # It will be used in the view.
         attrs['user'] = user
         return attrs
+    
+
+class BannerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model= Banners 
+        exclude = ('active', )
+        # fields = '__all__'
+class TermsAndConditionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=TermsAndConditions
+        exclude=()
+
+
+class ProfessionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Profession
+        fields=['name_en','statusOfResidenceEn','residenceType']
+        # exclude=()
+class ResidenceTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=ResidenceType
+        exclude=()
+
+class StatusResicenceSerializer(serializers.ModelSerializer):
+    class Meta:
+        models=StatusOfResidence
+        exclude=()

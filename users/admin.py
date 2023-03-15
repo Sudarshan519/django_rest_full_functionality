@@ -37,4 +37,12 @@ admin.site.register(Profile)
 admin.site.register(UserDocuments)
 admin.site.register(TermsAndConditions)
 admin.site.register(IntendedUseOfAccount)
-admin.site.register(Ekyc)
+admin.site.register(Ekyc) 
+admin.site.register(AppVersion)
+ 
+
+class BannersAdmin(admin.ModelAdmin): # new
+    readonly_fields = ['img_preview']
+    list_display = ['title', 'img_preview']
+# admin.site.register(Banners,BannersAdmin)
+admin.site.site_header='Clone RPS Remit'

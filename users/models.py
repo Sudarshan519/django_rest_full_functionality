@@ -18,11 +18,14 @@ class StatusOfResidence(models.Model):
         return self.name
 class Profession(models.Model):
     name_en= models.CharField(blank=True,max_length=255)
-    # name_jp=models.CharField(blank=True,max_length=255)
-    status_of_residence=models.ForeignKey(StatusOfResidence,on_delete=models.CASCADE)
+    # residence_type = models.ForeignKey(ResidenceType ,on_delete=models.CASCADE,default=0,null=True,blank=True)
+    status_of_residence=models.ForeignKey(StatusOfResidence,on_delete=models.CASCADE,default=0,null=True,blank=True)
     def __str__(self):
         return self.name_en
-
+    def statusOfResidenceEn(self):
+        return self.status_of_residence.name
+    def residenceType(self):
+        return self.status_of_residence.residence_type.name
 class UserDocuments(models.Model):
     user=models.ForeignKey("users.CustomUser", verbose_name=_("User"), on_delete=models.CASCADE)
     password_image=models.FileField(_("Passport Images"), upload_to=None, max_length=100,null=True,blank=True)
@@ -115,3 +118,30 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 #     counter = models.IntegerField(default=0, blank=False)
 #     def __str__(self):
 #         return str(self.Mobile)
+type_choices=((0,'Android'),(1,'Ios'))
+class AppVersion(models.Model):
+    action_choices=((1,'Soft Update'),(2,'Force Update'),(3,'Maintainence'))
+    type=models.IntegerField(choices=type_choices,default=0)
+    title=models.CharField(max_length=20,default='')
+    version=models.CharField(max_length=20,default='')
+    message=models.CharField(max_length=255,default='')
+    update_action=models.IntegerField(choices=action_choices,default=1)
+    
+# class AndroidVersion(BaseVersion):
+#     type=models.IntegerField(default=0)
+#     created_at=models.DateTimeField(auto_now=True)  
+# class IosVersion(BaseVersion):
+#     type=models.IntegerField(default=1)
+#     created_at=models.DateTimeField(auto_now=True)  
+from django.utils.html import mark_safe
+class Banners(models.Model):
+    title=models.CharField(max_length=255,null=True,blank=True)
+    redirect_url=models.CharField(max_length=255,null=True,blank=True)
+    image=models.ImageField(upload_to='media',default='info.png')
+    active=models.BooleanField(default=True)
+    # def __str__(self) -> str:
+    #     return "<img src={self.image}"
+    def img_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.image.url
+         ))

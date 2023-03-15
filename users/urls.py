@@ -23,6 +23,7 @@ schema_view = get_schema_view(
    permission_classes=[permissions.AllowAny],
 )
 router = routers.DefaultRouter()
+router.register(r'banners',views.BannerViewSet,basename='banners')
 # router.register(r'users', views.UserViewSet,'users')
 # router.register(r'groups', views.GroupViewSet)
 # router.register(r'register', views.register.as_view(),basename='register')
@@ -34,10 +35,15 @@ urlpatterns = [
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path('get-otp/<str:email>',views.get_otp),#<str:email>
     path('verify-otp/',views.getPhoneNumberRegistered.as_view()),#<str:email>
     path('', include(router.urls)),
     path('login/',views.LoginView.as_view()),
+    path('get-signup-info/',views.get_signup_info),
     path('register/',views.register),
+    path('address/<int:code>',views.get_address),
+    path('user_agreement/<str:type>',views.get_terms),
+    #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
