@@ -74,7 +74,8 @@ class Ekyc(models.Model):
     source_of_income=models.FileField(_("Source of Income"), upload_to='media', max_length=100,null=True,blank=True)
     tax_return=models.FileField(_("Tax Return"), upload_to='media', max_length=100,null=True,blank=True)
     audit_report=models.FileField(_("Audit Report"), upload_to='media', max_length=100,null=True,blank=True)
-
+    created_at=models.DateTimeField(_(""), auto_now=True,  )
+    
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
     email = models.EmailField(_("email address"), unique=True,null=False,)
@@ -88,6 +89,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     kycVerified=models.IntegerField(
         choices=((0,'Uniniialized'),(1,'Pending'),(2,'Verified')),
         blank=False,default=0)
+    gps=models.CharField(max_length=60,default="")
     counter = models.IntegerField(default=0, blank=False)
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
