@@ -112,3 +112,8 @@ class StatusResicenceSerializer(serializers.ModelSerializer):
     class Meta:
         model=StatusOfResidence
         exclude=()
+
+class PostalCodeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=PostalCode
+        exclude=()

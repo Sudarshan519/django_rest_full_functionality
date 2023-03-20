@@ -163,6 +163,7 @@ class Banners(models.Model):
 class PostalCode(models.Model):
     country=models.CharField(max_length=100,default="Nepal")
     district=models.CharField(max_length=255,default='')
+    post_office=models.CharField(_("Post office"), max_length=50)
     postal_pin_code=models.CharField(_("Postal/Pin Code"), max_length=100)
     postal_office_type=models.CharField(_("Post Office Type"), max_length=50)
 
