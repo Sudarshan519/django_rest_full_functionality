@@ -1,5 +1,7 @@
 import datetime
 
+from django.shortcuts import get_list_or_404, get_object_or_404
+
 from users.postal_code import getAddress
 # from django import views
 # from django.contrib.auth.models import User, Group
@@ -254,7 +256,7 @@ class BannerViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Banners.objects.filter(active=True)
     serializer_class = BannerSerializer
 # TODO :// EXCHANG API
-# TODO :// HOME API
+# TODO :// HOME APIe
 # TODO :// EKYC
 # TODO :// SOCIAL LOGIN
 # TODO POSTAL CODE
@@ -262,13 +264,101 @@ class BannerViewSet(viewsets.ReadOnlyModelViewSet):
 def get_address(request,code):
     address=getAddress(code)
     return JsonResponse({"address":str(address)})
-# TODO PROFILE UPDATE
+
+
+# TODO PROFILE CREATE ,UPDATE
+from rest_framework import mixins
+
+# TODO GET VERSIONS
+class ProfileVersionViewSet( mixins.ListModelMixin,viewsets.GenericViewSet):
+    # pass
+    def list(self, request):
+            queryset = ProfileDocuments.objects.filter(user=request.user)
+            doc = get_list_or_404(queryset)
+            serializer = ProfileDocumentsSerializer(doc,many=True,)
+            return JsonResponse(serializer.data,safe=False)
+    # def retrive(self, request):
+    #     pass
+    # def retrieve(self, request, pk=None):
+    #     queryset = ProfileDocuments.objects.all()
+    #     user = get_object_or_404(queryset, pk=pk)
+    #     serializer = ProfileDocumentsSerializer(user)
+    #     return Response(serializer.data)
+    # def create(self, request):
+    #     pass
+    # def update(self, request, pk=None):
+    #     pass
+
+    # def partial_update(self, request, pk=None):
+    #     pass
+
+    # def destroy(self, request, pk=None):
+    #     pass
+    def get_permissions(self):
+        """
+        Instantiates and returns the list of permissions that this view requires.
+        """
+        if self.action == 'retrive':
+            permission_classes = [permissions.IsAuthenticated]
+        else:
+            permission_classes = [permissions.IsAdminUser]
+        return [permission() for permission in permission_classes]
+# @api_view(['GET','POST','UPDATE'])
+# def profile_documents(request):
+from rest_framework.parsers import FormParser, MultiPartParser
+
+class ProfileDocumentViewset(mixins.CreateModelMixin,viewsets.GenericViewSet):#viewsets.ModelViewSet):
+    queryset = ProfileDocuments.objects.all()
+    serializer_class = ProfileDocumentsSerializer
+    parser_classes = (FormParser, MultiPartParser)
+    pass
+    """
+        A simple ViewSet for listing or retrieving users.
+    """
+    # def list(self, request):
+    #     pass
+    #     queryset = ProfileDocuments.objects.all()
+    #     serializer = ProfileDocumentsSerializer(queryset, many=True)
+    #     return Response(serializer.data)
+
+    # def retrieve(self, request, pk=None):
+    #     pass
+    #     queryset = ProfileDocuments.objects.all()
+    #     user = get_object_or_404(queryset, pk=pk)
+    #     serializer = ProfileDocumentsSerializer(user)
+    #     return Response(serializer.data)
+    # def create(self, request):
+    #         pass
+    # def update(self, request, pk=None):
+    #     pass
+
+    # def partial_update(self, request, pk=None):
+    #     pass
+
+    # def destroy(self, request, pk=None):
+    #     pass
+    def get_permissions(self):
+        """
+        Instantiates and returns the list of permissions that this view requires.
+        """
+        if self.action == 'list':
+            permission_classes = [permissions.IsAuthenticated]
+        else:
+            permission_classes = [permissions.IsAdminUser]
+        return [permission() for permission in permission_classes]
 @api_view(['GET'])
 def get_signup_info(request):
+    residence_types=ResidenceType.objects.all()
+    resident_serializer=ResidenceTypeSerializer(residence_types,many=True)
+    residenceStatuss=StatusOfResidence.objects.all()
+    resident_status_serializer=StatusResicenceSerializer(residenceStatuss,many=True)
     professions=Profession.objects.all()
     serializers=ProfessionSerializer(professions,many=True)
     # print(professions)
-    return JsonResponse({"data":serializers.data })
+    return JsonResponse({
+        "resident_types":resident_serializer.data,
+        "status_of_residence":resident_status_serializer.data,
+        "professions":serializers.data })
 # TODO TERMS AND CONDITIONS
 @api_view(['GET'])
 def get_terms(requst,type=''):
@@ -276,6 +366,9 @@ def get_terms(requst,type=''):
     serializers=TermsAndConditionSerializer(data,many=True)
  
     return JsonResponse({"data": serializers.data })
+    
     return JsonResponse({"error":""})
 # TODO VERSION CHECK
 # TODO WELCOME
+
+# sync unit rates

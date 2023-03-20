@@ -10,7 +10,7 @@ class CustomUserAdmin(UserAdmin):
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
     model = CustomUser
-    list_display = ("email","resident_type", "is_staff", "is_active",)
+    list_display = ("email","resident_type","emailVerified", "is_staff", "is_active",)
     list_filter = ("email", "is_staff", "is_active",)
     fieldsets = (
         (None, {"fields": ("email", "password")}),
@@ -40,7 +40,7 @@ admin.site.register(IntendedUseOfAccount)
 admin.site.register(Ekyc) 
 admin.site.register(AppVersion)
  
-
+admin.site.register(ProfileDocuments)
 class BannersAdmin(admin.ModelAdmin): # new
     readonly_fields = ['img_preview']
     list_display = ['title', 'img_preview']

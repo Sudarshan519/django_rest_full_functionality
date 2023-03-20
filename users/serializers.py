@@ -4,14 +4,22 @@ from .models import *
 import django.contrib.auth.password_validation as validators
 from django.contrib.auth import authenticate
 class UserSerializer(serializers.HyperlinkedModelSerializer):
+    profileDocuments = serializers.HyperlinkedRelatedField(many=True, view_name='users:profileDocuments', read_only=True)
     class Meta:
         model = CustomUser
-        fields = [  'email', 'groups','kyc_updated',#'username','url',
+        fields = [  'email','kyc_updated','emailVerified','profileDocuments'#, 'groups''username','url',
         ]
     def create(self, validated_data):
         return super().create(validated_data)
-
-
+class ProfileDocumentsSerializer(serializers.ModelSerializer):
+    user=serializers.ReadOnlyField(source='user.email')
+    # url = serializers.HyperlinkedIdentityField(view_name="users:users")
+    class Meta:
+        model= ProfileDocuments
+        # fields ='__all__'
+        exclude=()
+    def perform_create(self, serializer):
+            serializer.save(user=self.request.user)
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
@@ -93,8 +101,8 @@ class TermsAndConditionSerializer(serializers.ModelSerializer):
 class ProfessionSerializer(serializers.ModelSerializer):
     class Meta:
         model=Profession
-        fields=['name_en','statusOfResidenceEn','residenceType']
-        # exclude=()
+        # fields=['name_en','statusOfResidenceEn','residenceType']
+        exclude=()
 class ResidenceTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model=ResidenceType
@@ -102,5 +110,5 @@ class ResidenceTypeSerializer(serializers.ModelSerializer):
 
 class StatusResicenceSerializer(serializers.ModelSerializer):
     class Meta:
-        models=StatusOfResidence
+        model=StatusOfResidence
         exclude=()

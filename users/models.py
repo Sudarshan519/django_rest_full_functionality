@@ -49,7 +49,21 @@ class Profile(models.Model):
     def __str__(self):
         return self.first_name
 
-
+class ProfileDocuments(models.Model):
+    
+    user=models.ForeignKey("users.CustomUser",default=1,on_delete=models.CASCADE)
+    created_at=models.DateTimeField(auto_now_add=True)
+    updated_at=models.DateTimeField(auto_now=True)
+    is_active=models.BooleanField(default=False )
+    front_img=models.ImageField(_("Front Image"), upload_to='media/', height_field=None, width_field=None, max_length=None,null=False,blank=False)
+    back_img=models.ImageField(_("Back Image"), upload_to='media', height_field=None, width_field=None, max_length=None,)
+    tilted=models.ImageField(_("Tilted Image"), upload_to='media', height_field=None, width_field=None, max_length=None,)
+    selfie=models.ImageField(_("Selfie Image"), upload_to='media', height_field=None, width_field=None, max_length=None,)
+    blink=models.ImageField(_("Blink Image"), upload_to='media', height_field=None, width_field=None, max_length=None,)
+    def __str__(self) -> str:
+        return self.user.email
+    class Meta:
+        ordering=('-created_at',)
 class TermsAndConditions(models.Model):
     name=models.CharField(_("Type"), max_length=50)
     detail=models.TextField(null=True,blank=True)
@@ -145,3 +159,17 @@ class Banners(models.Model):
         return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
              url = self.image.url
          ))
+
+class PostalCode(models.Model):
+    country=models.CharField(max_length=100,default="Nepal")
+    district=models.CharField(max_length=255,default='')
+    postal_pin_code=models.CharField(_("Postal/Pin Code"), max_length=100)
+    postal_office_type=models.CharField(_("Post Office Type"), max_length=50)
+
+
+class CurrencyRate(models.Model):
+    iso3=models.CharField(_("ISO3"), max_length=50)
+    name=models.CharField(_("NAME"), max_length=50)
+    unit=models.IntegerField(_("Unit"))
+    buy=models.FloatField(_("Buy"))
+    sell=models.DurationField(_("Sell"))

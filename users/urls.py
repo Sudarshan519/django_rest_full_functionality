@@ -24,7 +24,9 @@ schema_view = get_schema_view(
 )
 router = routers.DefaultRouter()
 router.register(r'banners',views.BannerViewSet,basename='banners')
-# router.register(r'users', views.UserViewSet,'users')
+router.register(r'documents',views.ProfileDocumentViewset,basename='profileDocuments')
+router.register(r'users', views.UserViewSet,'users')
+router.register(r'document_history',viewset=views.ProfileVersionViewSet,basename='documents_versions')
 # router.register(r'groups', views.GroupViewSet)
 # router.register(r'register', views.register.as_view(),basename='register')
 # register_user=
@@ -41,7 +43,7 @@ urlpatterns = [
     path('login/',views.LoginView.as_view()),
     path('get-signup-info/',views.get_signup_info),
     path('register/',views.register),
-    path('address/<int:code>',views.get_address),
+    path('address/<str:code>',views.get_address),
     path('user_agreement/<str:type>',views.get_terms),
     #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),

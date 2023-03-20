@@ -1,0 +1,5510 @@
+[
+    {
+        "district": "District",
+        "post_office": "Post Office",
+        "postal_pin_code": "Postal/Pin Code",
+        "post_office_type": "Post Office Type"
+    },
+    {
+        "district": "Achham",
+        "post_office": "Achham",
+        "postal_pin_code": "10700",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Chaurpati",
+        "postal_pin_code": "10701",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Srikot",
+        "postal_pin_code": "10702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Thanti",
+        "postal_pin_code": "10703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Mellekh",
+        "postal_pin_code": "10704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Bayalpata",
+        "postal_pin_code": "10705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Bhatakatiya",
+        "postal_pin_code": "10706",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Jayagadh",
+        "postal_pin_code": "10707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Kalagaun",
+        "postal_pin_code": "10709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Kuchikot",
+        "postal_pin_code": "10710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Kamal bazar",
+        "postal_pin_code": "10711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Dhakari",
+        "postal_pin_code": "10712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Achham",
+        "post_office": "Turmakhad",
+        "postal_pin_code": "10713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Arghakhanchi",
+        "postal_pin_code": "32700",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Balkot",
+        "postal_pin_code": "32701",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Arghatosh",
+        "postal_pin_code": "32702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Khana",
+        "postal_pin_code": "32703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Wangla",
+        "postal_pin_code": "32704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Hamshapur",
+        "postal_pin_code": "32705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Thada",
+        "postal_pin_code": "32706",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Khilji",
+        "postal_pin_code": "32708",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Khidim",
+        "postal_pin_code": "32709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Pali",
+        "postal_pin_code": "32710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Dhikura",
+        "postal_pin_code": "32711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Argha",
+        "postal_pin_code": "32712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Arghakhanchi",
+        "post_office": "Subarnakhal",
+        "postal_pin_code": "32713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Baglung",
+        "postal_pin_code": "33300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Pala",
+        "postal_pin_code": "33302",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Bihukot",
+        "postal_pin_code": "33303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Harichaur",
+        "postal_pin_code": "33304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Balewa Payupata",
+        "postal_pin_code": "33305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Jaidi Belbagar",
+        "postal_pin_code": "33306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Bereng",
+        "postal_pin_code": "33307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Galkot",
+        "postal_pin_code": "33308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Pandavkhani",
+        "postal_pin_code": "33309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Arnakot",
+        "postal_pin_code": "33310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Khrwang",
+        "postal_pin_code": "33311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Bongadovan",
+        "postal_pin_code": "33312",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Jhimpa",
+        "postal_pin_code": "33313",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baglung",
+        "post_office": "Kusmi Shera",
+        "postal_pin_code": "33314",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Baitadi",
+        "postal_pin_code": "10200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Kesharpur",
+        "postal_pin_code": "10201",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Patan",
+        "postal_pin_code": "10202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Khodpe",
+        "postal_pin_code": "10203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Mulkhatali",
+        "postal_pin_code": "10204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Gajari Changgad",
+        "postal_pin_code": "10205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Dehimandau",
+        "postal_pin_code": "10207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Sharmali",
+        "postal_pin_code": "10209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Srikot",
+        "postal_pin_code": "10210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Dilasaini",
+        "postal_pin_code": "10211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Swopana Taladehi",
+        "postal_pin_code": "10212",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Purchaudihat",
+        "postal_pin_code": "10213",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Sitad",
+        "postal_pin_code": "10214",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Baitadi",
+        "post_office": "Dhungad",
+        "postal_pin_code": "10215",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Bajhang",
+        "postal_pin_code": "10500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Talkot",
+        "postal_pin_code": "10501",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Jamatola",
+        "postal_pin_code": "10502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Jaya Prithivi Nagar",
+        "postal_pin_code": "10505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Chhanna",
+        "postal_pin_code": "10506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Chaudhari",
+        "postal_pin_code": "10507",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Rayal",
+        "postal_pin_code": "10508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Thalara",
+        "postal_pin_code": "10509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Bungal",
+        "postal_pin_code": "10510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajhang",
+        "post_office": "Shayadi",
+        "postal_pin_code": "10511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Bajura",
+        "postal_pin_code": "10600",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Dandakot",
+        "postal_pin_code": "10602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Jukot",
+        "postal_pin_code": "10603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Faiti",
+        "postal_pin_code": "10604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Kolti",
+        "postal_pin_code": "10605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Manakot",
+        "postal_pin_code": "10606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Dogadi",
+        "postal_pin_code": "10607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Tate",
+        "postal_pin_code": "10608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bajura",
+        "post_office": "Chhatara",
+        "postal_pin_code": "10609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Banke",
+        "postal_pin_code": "21900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Suiya",
+        "postal_pin_code": "21901",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Bhojbhagawanpur",
+        "postal_pin_code": "21902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Khaskusma",
+        "postal_pin_code": "21903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Kohalapur",
+        "postal_pin_code": "21904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Ramjha",
+        "postal_pin_code": "21905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Udayapur",
+        "postal_pin_code": "21907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Chisapani",
+        "postal_pin_code": "21910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Godahana",
+        "postal_pin_code": "21911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Jayaspur",
+        "postal_pin_code": "21912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Khajura",
+        "postal_pin_code": "21913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Banke",
+        "post_office": "Chandranagar",
+        "postal_pin_code": "21914",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Bara",
+        "postal_pin_code": "44400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Nijgadh",
+        "postal_pin_code": "44401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Mahendra Adarsha",
+        "postal_pin_code": "44402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Simraungadh",
+        "postal_pin_code": "44403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Umjan",
+        "postal_pin_code": "44404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Bariyarpur",
+        "postal_pin_code": "44405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Kabahigoth",
+        "postal_pin_code": "44406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Dumarwana",
+        "postal_pin_code": "44408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Pipradhigoth",
+        "postal_pin_code": "44410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Basantapur",
+        "postal_pin_code": "44411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Simara",
+        "postal_pin_code": "44412",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Parsoni",
+        "postal_pin_code": "44413",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Amalekhgunj",
+        "postal_pin_code": "44416",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bara",
+        "post_office": "Jeetpur (Bhavanipur)",
+        "postal_pin_code": "44417",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Bardiya",
+        "postal_pin_code": "21800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Jamuni",
+        "postal_pin_code": "21801",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Mainapokhar",
+        "postal_pin_code": "21802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Motipur",
+        "postal_pin_code": "21803",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Magaragadi",
+        "postal_pin_code": "21804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Baganaha",
+        "postal_pin_code": "21808",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Bhurigaun",
+        "postal_pin_code": "21809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Rajapur",
+        "postal_pin_code": "21811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Pashupatinagar",
+        "postal_pin_code": "21813",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bardiya",
+        "post_office": "Sanoshri",
+        "postal_pin_code": "21814",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Bhaktapur",
+        "postal_pin_code": "44800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Dubakot",
+        "postal_pin_code": "44802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Kharipati",
+        "postal_pin_code": "44804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Tathali",
+        "postal_pin_code": "44805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Jorpati",
+        "postal_pin_code": "44806",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Gamcha",
+        "postal_pin_code": "44809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Dibyashwori",
+        "postal_pin_code": "44810",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Thimi",
+        "postal_pin_code": "44811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhaktapur",
+        "post_office": "Nagarkot",
+        "postal_pin_code": "44812",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Bhojpur",
+        "postal_pin_code": "57000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Kulung Agrakhe",
+        "postal_pin_code": "57001",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Dingla",
+        "postal_pin_code": "57002",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Deurali",
+        "postal_pin_code": "57003",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Pyauli",
+        "postal_pin_code": "57004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Yaku",
+        "postal_pin_code": "57005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Bastim",
+        "postal_pin_code": "57006",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Timma",
+        "postal_pin_code": "57008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Dilpa Annapurna",
+        "postal_pin_code": "57009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Bhulke",
+        "postal_pin_code": "57010",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Baikunthe",
+        "postal_pin_code": "57011",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Ranibas",
+        "postal_pin_code": "57012",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Walangkha",
+        "postal_pin_code": "57013",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Tiwari Bhanjyang",
+        "postal_pin_code": "57014",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Bhojpur",
+        "post_office": "Dobhane",
+        "postal_pin_code": "57015",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Chitwan",
+        "postal_pin_code": "44200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Ratnanagar",
+        "postal_pin_code": "44204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Mugling",
+        "postal_pin_code": "44206",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Narayangadh",
+        "postal_pin_code": "44207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Rampur",
+        "postal_pin_code": "44209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Soshi Bazar",
+        "postal_pin_code": "44212",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Harinagar",
+        "postal_pin_code": "44213",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitawan",
+        "post_office": "Madi",
+        "postal_pin_code": "44214",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Bhandara",
+        "postal_pin_code": "44202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Khairahani",
+        "postal_pin_code": "44203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Jutpani",
+        "postal_pin_code": "44205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Phulbari",
+        "postal_pin_code": "44208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Meghauli",
+        "postal_pin_code": "44210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Chitwan",
+        "post_office": "Patihani",
+        "postal_pin_code": "44211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Dadeldhura",
+        "postal_pin_code": "10300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Ugratara",
+        "postal_pin_code": "10302",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Dandaban",
+        "postal_pin_code": "10303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Ganeshpur",
+        "postal_pin_code": "10304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Gaira Ganesh",
+        "postal_pin_code": "10305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Jogbudha",
+        "postal_pin_code": "10306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Lamikande",
+        "postal_pin_code": "10307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Chipur",
+        "postal_pin_code": "10308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dadeldhura",
+        "post_office": "Ajayameru",
+        "postal_pin_code": "10309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Dailekh",
+        "postal_pin_code": "21600",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Gaidabaj",
+        "postal_pin_code": "21602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Naumule",
+        "postal_pin_code": "21603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Byastada",
+        "postal_pin_code": "21604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Dhungeshwor",
+        "postal_pin_code": "21605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Malika",
+        "postal_pin_code": "21607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Dullu",
+        "postal_pin_code": "21608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Jambu Kandha",
+        "postal_pin_code": "21609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dailekh",
+        "post_office": "Rakam Karnali",
+        "postal_pin_code": "21610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Dang",
+        "postal_pin_code": "22400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Hapur",
+        "postal_pin_code": "22402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Jumlepani",
+        "postal_pin_code": "22403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Bhaluwang",
+        "postal_pin_code": "22404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Koilabas",
+        "postal_pin_code": "22405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Jangrahawa",
+        "postal_pin_code": "22406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Rampur",
+        "postal_pin_code": "22407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Urahari",
+        "postal_pin_code": "22408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Hekuli",
+        "postal_pin_code": "22409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Panchakule",
+        "postal_pin_code": "22410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Shantinagar",
+        "postal_pin_code": "22411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Tulsipur",
+        "postal_pin_code": "22412",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Manpur",
+        "postal_pin_code": "22413",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Lamahi",
+        "postal_pin_code": "22414",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dang",
+        "post_office": "Ghoraha",
+        "postal_pin_code": "22415",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Darchula",
+        "postal_pin_code": "10100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Rapla",
+        "postal_pin_code": "10101",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Duhuti",
+        "postal_pin_code": "10102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Malikarjun",
+        "postal_pin_code": "10104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Joljibi",
+        "postal_pin_code": "10105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Dandakot",
+        "postal_pin_code": "10106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Ritha Chaupata",
+        "postal_pin_code": "10107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Gokule",
+        "postal_pin_code": "10108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Sitola",
+        "postal_pin_code": "10109",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Marmalatinath",
+        "postal_pin_code": "10110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Darchula",
+        "post_office": "Sipti",
+        "postal_pin_code": "10111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Dhading",
+        "postal_pin_code": "45100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Lapa",
+        "postal_pin_code": "45101",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Sertung",
+        "postal_pin_code": "45102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Phulkharka",
+        "postal_pin_code": "45103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Tripureshwor",
+        "postal_pin_code": "45104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Katunje",
+        "postal_pin_code": "45105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Sunkhani",
+        "postal_pin_code": "45106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Sunaulabazar",
+        "postal_pin_code": "45108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Maidi",
+        "postal_pin_code": "45109",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Khanikhola",
+        "postal_pin_code": "45110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Bhumisthan",
+        "postal_pin_code": "45111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Gajuri",
+        "postal_pin_code": "45112",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhading",
+        "post_office": "Malekhu",
+        "postal_pin_code": "45113",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Dhankuta",
+        "postal_pin_code": "56800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Mudhebash",
+        "postal_pin_code": "56801",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Rajarani",
+        "postal_pin_code": "56802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Dandabazar",
+        "postal_pin_code": "56803",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Bhedetar",
+        "postal_pin_code": "56804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Ankhisalla",
+        "postal_pin_code": "56805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Hile",
+        "postal_pin_code": "56806",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Muga",
+        "postal_pin_code": "56807",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Teliya",
+        "postal_pin_code": "56808",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Pakhribash",
+        "postal_pin_code": "56809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Leguwa",
+        "postal_pin_code": "56810",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Mare Katahare",
+        "postal_pin_code": "56811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Arknaule",
+        "postal_pin_code": "56812",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhankuta",
+        "post_office": "Chungmang",
+        "postal_pin_code": "56813",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Dhanusha",
+        "postal_pin_code": "45600",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Khajuri",
+        "postal_pin_code": "45601",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Tinkoriya",
+        "postal_pin_code": "45602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Yadukuha",
+        "postal_pin_code": "45603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Duhabi",
+        "postal_pin_code": "45604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Chakkar",
+        "postal_pin_code": "45605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Raghunathpur",
+        "postal_pin_code": "45606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Godar Chisapani",
+        "postal_pin_code": "45607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Dhanushadham",
+        "postal_pin_code": "45608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Bagachauda",
+        "postal_pin_code": "45610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Jatahi",
+        "postal_pin_code": "45611",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Phulgama",
+        "postal_pin_code": "45612",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Sankhuwa Mahendranagar",
+        "postal_pin_code": "45616",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dhanusha",
+        "post_office": "Dhalkebar",
+        "postal_pin_code": "45617",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Dolakha",
+        "postal_pin_code": "45500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Khahare",
+        "postal_pin_code": "45501",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Namdu",
+        "postal_pin_code": "45502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Jiri",
+        "postal_pin_code": "45503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Japhekalapani",
+        "postal_pin_code": "45505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Melung",
+        "postal_pin_code": "45506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Bhusapheda",
+        "postal_pin_code": "45507",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Sunkhani",
+        "postal_pin_code": "45509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Khopachangu",
+        "postal_pin_code": "45510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Lamabagar",
+        "postal_pin_code": "45511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolakha",
+        "post_office": "Chitre",
+        "postal_pin_code": "45512",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Dolpa",
+        "postal_pin_code": "21400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Juphal",
+        "postal_pin_code": "21401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Tripurakot",
+        "postal_pin_code": "21402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Liku",
+        "postal_pin_code": "21403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Sarmi",
+        "postal_pin_code": "21404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Kaigaun",
+        "postal_pin_code": "21405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Foksundo",
+        "postal_pin_code": "21406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Dolpa",
+        "post_office": "Namdo",
+        "postal_pin_code": "21407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Doti",
+        "postal_pin_code": "10800",
+        "post_office_type": "F.W.R.P.D."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Silgadhi",
+        "postal_pin_code": "10801",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Sanagaun",
+        "postal_pin_code": "10802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Daund",
+        "postal_pin_code": "10803",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Mauwa Nagardaha",
+        "postal_pin_code": "10804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Banedungrasen",
+        "postal_pin_code": "10805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Jorayal",
+        "postal_pin_code": "10806",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Gadhshera",
+        "postal_pin_code": "10807",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Lanakedareswor",
+        "postal_pin_code": "10808",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Boktan",
+        "postal_pin_code": "10809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Byal",
+        "postal_pin_code": "10810",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Doti",
+        "post_office": "Mudbhara",
+        "postal_pin_code": "10811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Gorkha",
+        "postal_pin_code": "34000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Bungkot",
+        "postal_pin_code": "34002",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Manakamana",
+        "postal_pin_code": "34003",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Batase",
+        "postal_pin_code": "34004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Luintel",
+        "postal_pin_code": "34005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Anapipal",
+        "postal_pin_code": "34006",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Jaubari",
+        "postal_pin_code": "34007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Bhachchek",
+        "postal_pin_code": "34008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Saurpani",
+        "postal_pin_code": "34009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Ghyampesal",
+        "postal_pin_code": "34010",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Aarughat",
+        "postal_pin_code": "34011",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Gumda",
+        "postal_pin_code": "34012",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gorkha",
+        "post_office": "Sirdibash",
+        "postal_pin_code": "34013",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Gulmi",
+        "postal_pin_code": "32600",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Purtighat",
+        "postal_pin_code": "32601",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Bharse",
+        "postal_pin_code": "32602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Chandrakot",
+        "postal_pin_code": "32603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Majuwa",
+        "postal_pin_code": "32604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Ridi",
+        "postal_pin_code": "32605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Sringa",
+        "postal_pin_code": "32606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Birabas",
+        "postal_pin_code": "32607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Wami",
+        "postal_pin_code": "32609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Ismadohali",
+        "postal_pin_code": "32610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Dhurkot",
+        "postal_pin_code": "32611",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Purkotadha",
+        "postal_pin_code": "32612",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Arje",
+        "postal_pin_code": "32613",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Manabhak",
+        "postal_pin_code": "32614",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Gulmi",
+        "post_office": "Pipaldanda",
+        "postal_pin_code": "32615",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Humla",
+        "postal_pin_code": "21000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Muchu",
+        "postal_pin_code": "21003",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Lali",
+        "postal_pin_code": "21004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Sarkegadh",
+        "postal_pin_code": "21005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Darma",
+        "postal_pin_code": "21007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Humla",
+        "post_office": "Srinagar",
+        "postal_pin_code": "21008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Ilam",
+        "postal_pin_code": "57300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Nayabazar",
+        "postal_pin_code": "57302",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Pashupatinagar",
+        "postal_pin_code": "57303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Aaitabare",
+        "postal_pin_code": "57304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Harkatebazar",
+        "postal_pin_code": "57305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Gajurmukhi",
+        "postal_pin_code": "57306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Mangal Bare",
+        "postal_pin_code": "57307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Nepaltar",
+        "postal_pin_code": "57308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Jamuna",
+        "postal_pin_code": "57309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Gitpur",
+        "postal_pin_code": "57310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Cheesa Pani Panchami",
+        "postal_pin_code": "57311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ilam",
+        "post_office": "Phikal",
+        "postal_pin_code": "57312",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Jajarkot",
+        "postal_pin_code": "21500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Dhime",
+        "postal_pin_code": "21503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Dalli",
+        "postal_pin_code": "21504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Ragda",
+        "postal_pin_code": "21505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Rokaya gaun (Limsa)",
+        "postal_pin_code": "21506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Dashera",
+        "postal_pin_code": "21508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Thalaraikar",
+        "postal_pin_code": "21509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Garkhakot",
+        "postal_pin_code": "21510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jajarkot",
+        "post_office": "Karkigaun",
+        "postal_pin_code": "21511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Jhapa",
+        "postal_pin_code": "57200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Baniyani",
+        "postal_pin_code": "57201",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Goldhap",
+        "postal_pin_code": "57202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Chandragadhi",
+        "postal_pin_code": "57203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Birtamod",
+        "postal_pin_code": "57204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Sanishchare",
+        "postal_pin_code": "57205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Budhabare",
+        "postal_pin_code": "57206",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Dhulabari",
+        "postal_pin_code": "57207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Kankarbhitta",
+        "postal_pin_code": "57208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Rajgadh",
+        "postal_pin_code": "57209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Durgapur",
+        "postal_pin_code": "57210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Jhapa",
+        "postal_pin_code": "57211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Dudhe",
+        "postal_pin_code": "57212",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Shivagunj",
+        "postal_pin_code": "57213",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Topagachhi",
+        "postal_pin_code": "57214",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Gaurigunj",
+        "postal_pin_code": "57215",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Gauradaha",
+        "postal_pin_code": "57216",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jhapa",
+        "post_office": "Damak",
+        "postal_pin_code": "57217",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Jumla",
+        "postal_pin_code": "21200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Dillichaur",
+        "postal_pin_code": "21202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Tatopani",
+        "postal_pin_code": "21204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Malikathata",
+        "postal_pin_code": "21205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Kalikakhetu",
+        "postal_pin_code": "21206",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Narakot",
+        "postal_pin_code": "21207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Hatsinja",
+        "postal_pin_code": "21208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Jumla",
+        "post_office": "Chautha",
+        "postal_pin_code": "21209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailal",
+        "post_office": "Munuwa",
+        "postal_pin_code": "10902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Kailali",
+        "postal_pin_code": "10900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Tikapur",
+        "postal_pin_code": "10901",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Dododhara",
+        "postal_pin_code": "10903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Lamki",
+        "postal_pin_code": "10904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Masuriya",
+        "postal_pin_code": "10905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Pahalmanpur",
+        "postal_pin_code": "10906",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Hasuliya",
+        "postal_pin_code": "10907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Bhajani",
+        "postal_pin_code": "10908",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Joshipur",
+        "postal_pin_code": "10909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Phulbari",
+        "postal_pin_code": "10910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Atariya",
+        "postal_pin_code": "10911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Chaumala",
+        "postal_pin_code": "10912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kailali",
+        "post_office": "Phaltude",
+        "postal_pin_code": "10914",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Kalikot",
+        "postal_pin_code": "21300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Sanniraskot",
+        "postal_pin_code": "21303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Mehalmudi",
+        "postal_pin_code": "21304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Kotbada",
+        "postal_pin_code": "21305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Kalikot",
+        "postal_pin_code": "21306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Padamghat",
+        "postal_pin_code": "21307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Jubitha",
+        "postal_pin_code": "21308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kalikot",
+        "post_office": "Thirpu",
+        "postal_pin_code": "21309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Kanchanpur",
+        "postal_pin_code": "10400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Krishnapur",
+        "postal_pin_code": "10401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Kalika",
+        "postal_pin_code": "10402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Punarbas",
+        "postal_pin_code": "10403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Beldadi",
+        "postal_pin_code": "10404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Pipaladi",
+        "postal_pin_code": "10405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Kanchanpur",
+        "postal_pin_code": "10406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Chandani",
+        "postal_pin_code": "10407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Airport",
+        "postal_pin_code": "10409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Suda",
+        "postal_pin_code": "10410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kanchanpur",
+        "post_office": "Jhalari",
+        "postal_pin_code": "10411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Kapilbastu",
+        "postal_pin_code": "32800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Pipara",
+        "postal_pin_code": "32801",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Patariya",
+        "postal_pin_code": "32802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Pakadi",
+        "postal_pin_code": "32804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Kopawa",
+        "postal_pin_code": "32805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Gotihawa",
+        "postal_pin_code": "32808",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Gorusinge",
+        "postal_pin_code": "32809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Pattharkot",
+        "postal_pin_code": "32810",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Thuniya",
+        "postal_pin_code": "32811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Maharajgunj",
+        "postal_pin_code": "32812",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Ganeshpur",
+        "postal_pin_code": "32813",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Chanauta",
+        "postal_pin_code": "32814",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Krishnanagar",
+        "postal_pin_code": "32815",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kapilbastu",
+        "post_office": "Shiva Raj",
+        "postal_pin_code": "32816",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Kaski",
+        "postal_pin_code": "33700",
+        "post_office_type": "W.R.P.D."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Rupakot",
+        "postal_pin_code": "33701",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Gagan Gaunda",
+        "postal_pin_code": "33702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Makaikhola",
+        "postal_pin_code": "33703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Majhathana",
+        "postal_pin_code": "33704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Sildujure",
+        "postal_pin_code": "33705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Nirmalpokhari",
+        "postal_pin_code": "33706",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Pardibandh",
+        "postal_pin_code": "33707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Bhalam",
+        "postal_pin_code": "33708",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Chapakot",
+        "postal_pin_code": "33709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Birethanti",
+        "postal_pin_code": "33710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Naudanda",
+        "postal_pin_code": "33711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Ghachok",
+        "postal_pin_code": "33712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaski",
+        "post_office": "Purunchaur",
+        "postal_pin_code": "33713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Kathmandu",
+        "postal_pin_code": "44600",
+        "post_office_type": "G.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Sankhu",
+        "postal_pin_code": "44601",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Chabahil",
+        "postal_pin_code": "44602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Sundarijal",
+        "postal_pin_code": "44603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Gauchar",
+        "postal_pin_code": "44604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Dillibazar",
+        "postal_pin_code": "44605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Bansbari",
+        "postal_pin_code": "44606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Tokha Saraswati",
+        "postal_pin_code": "44608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Sachibalaya",
+        "postal_pin_code": "44609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Manmaiju",
+        "postal_pin_code": "44610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Balaju",
+        "postal_pin_code": "44611",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Tribhuvan University",
+        "postal_pin_code": "44613",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Kalimati",
+        "postal_pin_code": "44614",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Pharping",
+        "postal_pin_code": "44615",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Baluwatar",
+        "postal_pin_code": "44616",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Sarbochcha Adalat",
+        "postal_pin_code": "44617",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Kirtipur",
+        "postal_pin_code": "44618",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Thankot",
+        "postal_pin_code": "44619",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Swayambhu",
+        "postal_pin_code": "44620",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Pashupati",
+        "postal_pin_code": "44621",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kathmandu",
+        "post_office": "Budhanilkantha",
+        "postal_pin_code": "44622",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaverpalanchok",
+        "post_office": "Pokharinarayanshthan",
+        "postal_pin_code": "45203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaverpalanchok",
+        "post_office": "Gumati Bhanjyang",
+        "postal_pin_code": "45204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaverpalanchok",
+        "post_office": "Mahadevasthan",
+        "postal_pin_code": "45213",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kaverpalanchok",
+        "post_office": "Khopasi",
+        "postal_pin_code": "45216",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Kavrepalanchok",
+        "postal_pin_code": "45200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Ghartichhap",
+        "postal_pin_code": "45201",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Mangaltar",
+        "postal_pin_code": "45202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Dapcha",
+        "postal_pin_code": "45205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Panauti",
+        "postal_pin_code": "45209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Banepa",
+        "postal_pin_code": "45210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Panchkhal",
+        "postal_pin_code": "45212",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Phalante",
+        "postal_pin_code": "45214",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Kavrepalanchok",
+        "post_office": "Dolal Ghat",
+        "postal_pin_code": "45215",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Khotang",
+        "postal_pin_code": "56200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Wakshila",
+        "postal_pin_code": "56201",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Aiselukharka",
+        "postal_pin_code": "56202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Jalpa",
+        "postal_pin_code": "56204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Lamidanda",
+        "postal_pin_code": "56205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Halesi mahadevasthan",
+        "postal_pin_code": "56206",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Buipa",
+        "postal_pin_code": "56208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Manebhanjyang",
+        "postal_pin_code": "56209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Sapteshworichhitapokhari",
+        "postal_pin_code": "56210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Khotang",
+        "postal_pin_code": "56211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Chisapani",
+        "postal_pin_code": "56212",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Khotang",
+        "post_office": "Simpani",
+        "postal_pin_code": "56214",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Lalitpur",
+        "postal_pin_code": "44700",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Dhapakhel",
+        "postal_pin_code": "44703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Imadol",
+        "postal_pin_code": "44705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Darabartole",
+        "postal_pin_code": "44707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Lubhu",
+        "postal_pin_code": "44708",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Godawari",
+        "postal_pin_code": "44709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Chapagaun",
+        "postal_pin_code": "44710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Gotikhel",
+        "postal_pin_code": "44711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Bhattedanda",
+        "postal_pin_code": "44712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lalitpur",
+        "post_office": "Pyutar",
+        "postal_pin_code": "44713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Lamjung",
+        "postal_pin_code": "33600",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Maling",
+        "postal_pin_code": "33602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Sundar Bazar",
+        "postal_pin_code": "33603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Sotipasal",
+        "postal_pin_code": "33604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Kunchha",
+        "postal_pin_code": "33605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Gilung",
+        "postal_pin_code": "33606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Khudi",
+        "postal_pin_code": "33607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Phaliyasanghu",
+        "postal_pin_code": "33608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Bharate",
+        "postal_pin_code": "33609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Gaunda",
+        "postal_pin_code": "33610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Lamjung",
+        "post_office": "Tarkughat",
+        "postal_pin_code": "33611",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Mahottari",
+        "postal_pin_code": "45700",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Bardibash",
+        "postal_pin_code": "45701",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Bhangaha",
+        "postal_pin_code": "45702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Loharpatti",
+        "postal_pin_code": "45703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Pipara",
+        "postal_pin_code": "45704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Matihani",
+        "postal_pin_code": "45705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Ramgopalpur",
+        "postal_pin_code": "45707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Balawa",
+        "postal_pin_code": "45708",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Laxminiya",
+        "postal_pin_code": "45710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Gaushala",
+        "postal_pin_code": "45711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Shreepur",
+        "postal_pin_code": "45712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Samsi",
+        "postal_pin_code": "45713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mahottari",
+        "post_office": "Manara",
+        "postal_pin_code": "45714",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makabanpur",
+        "post_office": "Hatiya",
+        "postal_pin_code": "44103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makabanpur",
+        "post_office": "Aambhanjyang",
+        "postal_pin_code": "44104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makabanpur",
+        "post_office": "Manahari",
+        "postal_pin_code": "44106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makabanpur",
+        "post_office": "Basamadi",
+        "postal_pin_code": "44108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makabanpur",
+        "post_office": "Markhu",
+        "postal_pin_code": "44113",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Makawanpur",
+        "postal_pin_code": "44100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Phaparbari",
+        "postal_pin_code": "44101",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Ritha Chhatibwn",
+        "postal_pin_code": "44102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Hetauda I.A.",
+        "postal_pin_code": "44107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Palung",
+        "postal_pin_code": "44110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Bhainse",
+        "postal_pin_code": "44111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Makawanpur",
+        "post_office": "Bhimphedi",
+        "postal_pin_code": "44112",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Manang",
+        "postal_pin_code": "33500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Pisang",
+        "postal_pin_code": "33502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Bhakra",
+        "postal_pin_code": "33503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Mathillo Manang",
+        "postal_pin_code": "33504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Nar",
+        "postal_pin_code": "33507",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Manang",
+        "post_office": "Dharapani",
+        "postal_pin_code": "33509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Morang",
+        "postal_pin_code": "56600",
+        "post_office_type": "E.R.P.D."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Chunimari",
+        "postal_pin_code": "56601",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Rangeli",
+        "postal_pin_code": "56602",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Sanischare",
+        "postal_pin_code": "56603",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Urlabari",
+        "postal_pin_code": "56604",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Madhumalla",
+        "postal_pin_code": "56605",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Bayarban",
+        "postal_pin_code": "56606",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Sorabhag",
+        "postal_pin_code": "56607",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Dadarberiya",
+        "postal_pin_code": "56608",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Letang",
+        "postal_pin_code": "56609",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Kerabari",
+        "postal_pin_code": "56610",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Haraincha",
+        "postal_pin_code": "56611",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Bhaudaha",
+        "postal_pin_code": "56612",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Biratnagar Bazar",
+        "postal_pin_code": "56613",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Rani Sikiyahi",
+        "postal_pin_code": "56614",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Jhorahat",
+        "postal_pin_code": "56615",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Banigama",
+        "postal_pin_code": "56616",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Morang",
+        "post_office": "Bansbari",
+        "postal_pin_code": "56617",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Mugu",
+        "postal_pin_code": "21100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Rowa",
+        "postal_pin_code": "21102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Pulu",
+        "postal_pin_code": "21103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Sorubarma",
+        "postal_pin_code": "21105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Rara",
+        "postal_pin_code": "21106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Sukhadhik",
+        "postal_pin_code": "21107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Gumtha",
+        "postal_pin_code": "21109",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mugu",
+        "post_office": "Dhainkot",
+        "postal_pin_code": "21110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Mustang",
+        "postal_pin_code": "33100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Marpha",
+        "postal_pin_code": "33102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Kagbeni",
+        "postal_pin_code": "33103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Charang",
+        "postal_pin_code": "33104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Mustang",
+        "postal_pin_code": "33105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Chhoser",
+        "postal_pin_code": "33106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Muktinath",
+        "postal_pin_code": "33107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Lete",
+        "postal_pin_code": "33108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Mustang",
+        "post_office": "Thak Tukuche",
+        "postal_pin_code": "33109",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Myagdi",
+        "postal_pin_code": "33200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Xyamarukot",
+        "postal_pin_code": "33202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Galeswor",
+        "postal_pin_code": "33203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Rakhu Bhagawati",
+        "postal_pin_code": "33204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Sikha",
+        "postal_pin_code": "33205",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Dana",
+        "postal_pin_code": "33206",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Babiyachaur",
+        "postal_pin_code": "33207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Darbang",
+        "postal_pin_code": "33208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Pakhapani",
+        "postal_pin_code": "33209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Takam",
+        "postal_pin_code": "33210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Myagdi",
+        "post_office": "Lulang",
+        "postal_pin_code": "33211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Nawalparasi",
+        "postal_pin_code": "33000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Rakuwa",
+        "postal_pin_code": "33001",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Bulingtar",
+        "postal_pin_code": "33002",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Gaindakot",
+        "postal_pin_code": "33003",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Dumkauli",
+        "postal_pin_code": "33004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Shergunj",
+        "postal_pin_code": "33005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Naya Belhani",
+        "postal_pin_code": "33006",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Tribeni",
+        "postal_pin_code": "33007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Semari",
+        "postal_pin_code": "33008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Guthi persauni",
+        "postal_pin_code": "33009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Bhujahawa",
+        "postal_pin_code": "33010",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Makar",
+        "postal_pin_code": "33011",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Tilakpur",
+        "postal_pin_code": "33012",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Maheshpur",
+        "postal_pin_code": "33013",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Sunawal",
+        "postal_pin_code": "33015",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nawalparasi",
+        "post_office": "Pithauli",
+        "postal_pin_code": "33016",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Nuwakot",
+        "postal_pin_code": "44900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Thansingh",
+        "postal_pin_code": "44902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Ranipauwa",
+        "postal_pin_code": "44903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Taruka",
+        "postal_pin_code": "44905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Deurali",
+        "postal_pin_code": "44906",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Kahule",
+        "postal_pin_code": "44907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Nuwakot",
+        "postal_pin_code": "44908",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Chokade",
+        "postal_pin_code": "44909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Kharanitar",
+        "postal_pin_code": "44910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Bhadratar",
+        "postal_pin_code": "44911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Ramabati",
+        "postal_pin_code": "44912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Rautbesi",
+        "postal_pin_code": "44913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Pokharichapadanda",
+        "postal_pin_code": "44914",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Nuwakot",
+        "post_office": "Devighat",
+        "postal_pin_code": "44915",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Okhaldhunga",
+        "postal_pin_code": "56100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Khani Bhanjyang",
+        "postal_pin_code": "56101",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Rumjatar",
+        "postal_pin_code": "56102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Rampur",
+        "postal_pin_code": "56104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Bigutar",
+        "postal_pin_code": "56105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Khiji Phalate",
+        "postal_pin_code": "56106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Gamanangtar",
+        "postal_pin_code": "56107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Ghorakhori",
+        "postal_pin_code": "56108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Chyanam",
+        "postal_pin_code": "56109",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Mane Bhanjyang",
+        "postal_pin_code": "56110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Moli",
+        "postal_pin_code": "56111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Okhaldhunga",
+        "post_office": "Ragani",
+        "postal_pin_code": "56112",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Palpa",
+        "postal_pin_code": "32500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Sahalkot",
+        "postal_pin_code": "32501",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Rampur",
+        "postal_pin_code": "32502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Hungi",
+        "postal_pin_code": "32503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Jalpa",
+        "postal_pin_code": "32504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Tahu",
+        "postal_pin_code": "32505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Jhadewa",
+        "postal_pin_code": "32506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Aryabhanjyang",
+        "postal_pin_code": "32507",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Madanpokhara",
+        "postal_pin_code": "32508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Khasyauli",
+        "postal_pin_code": "32509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Argali",
+        "postal_pin_code": "32510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Chhahara",
+        "postal_pin_code": "32511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Palungmainadi",
+        "postal_pin_code": "32512",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Palpa",
+        "post_office": "Baldengadi",
+        "postal_pin_code": "32513",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Panchthar",
+        "postal_pin_code": "57400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Chyangthapu",
+        "postal_pin_code": "57401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Ambarpur",
+        "postal_pin_code": "57402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Namluwa",
+        "postal_pin_code": "57403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Yangnam",
+        "postal_pin_code": "57404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Nawamidanda",
+        "postal_pin_code": "57406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Mehelbote",
+        "postal_pin_code": "57407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Yasok",
+        "postal_pin_code": "57408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Mauwa",
+        "postal_pin_code": "57409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Rabi",
+        "postal_pin_code": "57410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Limba",
+        "postal_pin_code": "57411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Panchthar",
+        "post_office": "Medibung",
+        "postal_pin_code": "57412",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Parbat",
+        "postal_pin_code": "33400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Salija",
+        "postal_pin_code": "33401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Khurkot",
+        "postal_pin_code": "33402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Deurali",
+        "postal_pin_code": "33403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Thulipokhari",
+        "postal_pin_code": "33405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Karkineta",
+        "postal_pin_code": "33406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Devisthan",
+        "postal_pin_code": "33407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Bachchha",
+        "postal_pin_code": "33408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Lankhudeurali",
+        "postal_pin_code": "33409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Hubas",
+        "postal_pin_code": "33410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Khor Pokhara",
+        "postal_pin_code": "33411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parbat",
+        "post_office": "Setibeni",
+        "postal_pin_code": "33412",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Parsa",
+        "postal_pin_code": "44300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Aadarshanagar",
+        "postal_pin_code": "44301",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Parbanipur",
+        "postal_pin_code": "44303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Bindabasini",
+        "postal_pin_code": "44304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Bahuari Pidari",
+        "postal_pin_code": "44305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Shirsiya Khalwatola",
+        "postal_pin_code": "44306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Biruwaguthi",
+        "postal_pin_code": "44307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Pakahamainpur",
+        "postal_pin_code": "44308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Phokhariya",
+        "postal_pin_code": "44309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Ranigunj",
+        "postal_pin_code": "44310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Paterwa Sugauli",
+        "postal_pin_code": "44311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Viswa",
+        "postal_pin_code": "44312",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Janakitol",
+        "postal_pin_code": "44313",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Jeetpur",
+        "postal_pin_code": "44314",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Parsa",
+        "post_office": "Thori",
+        "postal_pin_code": "44315",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Pyuthan",
+        "postal_pin_code": "22300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Dakhaquadi",
+        "postal_pin_code": "22301",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Bhingri",
+        "postal_pin_code": "22303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Wangesal",
+        "postal_pin_code": "22304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Baraula",
+        "postal_pin_code": "22305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Majuwa",
+        "postal_pin_code": "22307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Machchhi",
+        "postal_pin_code": "22308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Thulabesi",
+        "postal_pin_code": "22309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Lungbahane",
+        "postal_pin_code": "22310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Bijuwar",
+        "postal_pin_code": "22311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Pyuthan",
+        "post_office": "Naya Gaun",
+        "postal_pin_code": "22312",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Ramechhap",
+        "postal_pin_code": "45400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Those",
+        "postal_pin_code": "45401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Duragaun",
+        "postal_pin_code": "45402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Betali",
+        "postal_pin_code": "45403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Khimti",
+        "postal_pin_code": "45404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Saghutar",
+        "postal_pin_code": "45405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Kathjor",
+        "postal_pin_code": "45406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Puranagaun",
+        "postal_pin_code": "45408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Doramba",
+        "postal_pin_code": "45409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Hiledevi",
+        "postal_pin_code": "45410",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Ramechhap",
+        "post_office": "Bhirpani",
+        "postal_pin_code": "45411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rasuwa",
+        "post_office": "Rasuwa",
+        "postal_pin_code": "45000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Rasuwa",
+        "post_office": "Dhaibung",
+        "postal_pin_code": "45003",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rasuwa",
+        "post_office": "Ramkali",
+        "postal_pin_code": "45004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rasuwa",
+        "post_office": "Rasuwa",
+        "postal_pin_code": "45007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rasuwa",
+        "post_office": "Syaphru Besi",
+        "postal_pin_code": "45009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Rautahat",
+        "postal_pin_code": "44500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Saruatha",
+        "postal_pin_code": "44502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Pipra bazar",
+        "postal_pin_code": "44503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Madhopur",
+        "postal_pin_code": "44504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Rajpurpharahadawa",
+        "postal_pin_code": "44506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Patharabudhram",
+        "postal_pin_code": "44508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Sitalpur",
+        "postal_pin_code": "44509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Shivanagar",
+        "postal_pin_code": "44510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Laxminiya",
+        "postal_pin_code": "44511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Katahariya",
+        "postal_pin_code": "44512",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Samanpur",
+        "postal_pin_code": "44513",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rautahat",
+        "post_office": "Chandra Nigahapur",
+        "postal_pin_code": "44515",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Rolpa",
+        "postal_pin_code": "22100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Khungri",
+        "postal_pin_code": "22102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Sirpa",
+        "postal_pin_code": "22103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Thawang",
+        "postal_pin_code": "22106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Himtakura",
+        "postal_pin_code": "22107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Ghartigaun",
+        "postal_pin_code": "22108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Nerpa",
+        "postal_pin_code": "22110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Dahaban",
+        "postal_pin_code": "22111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Shulichaur",
+        "postal_pin_code": "22112",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rolpa",
+        "post_office": "Jhenam (Holeri)",
+        "postal_pin_code": "22113",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Rukum",
+        "postal_pin_code": "22000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Rukumkot",
+        "postal_pin_code": "22002",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Riwangchaur",
+        "postal_pin_code": "22004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Kol",
+        "postal_pin_code": "22005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Peugha",
+        "postal_pin_code": "22007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Chaurjahari",
+        "postal_pin_code": "22008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Simli",
+        "postal_pin_code": "22009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Radijyula",
+        "postal_pin_code": "22010",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rukum",
+        "post_office": "Baphikot",
+        "postal_pin_code": "22011",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Rupandehi",
+        "postal_pin_code": "32900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Siktahan",
+        "postal_pin_code": "32901",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Dhakadhai",
+        "postal_pin_code": "32902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Manigram",
+        "postal_pin_code": "32903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Kotihawa",
+        "postal_pin_code": "32904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Thutipipal",
+        "postal_pin_code": "32905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Butwal",
+        "postal_pin_code": "32907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Parroha",
+        "postal_pin_code": "32908",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Sauraha Pharsa",
+        "postal_pin_code": "32909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Amuwa",
+        "postal_pin_code": "32910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Saljhandi",
+        "postal_pin_code": "32911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Suryapura",
+        "postal_pin_code": "32912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Tenuhawa",
+        "postal_pin_code": "32913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Lumbini",
+        "postal_pin_code": "32914",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Betkuiya",
+        "postal_pin_code": "32915",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Rupandehi",
+        "post_office": "Mahadehiya",
+        "postal_pin_code": "32916",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Salyan",
+        "postal_pin_code": "22200",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Kalimati Kalche",
+        "postal_pin_code": "22201",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Luham",
+        "postal_pin_code": "22202",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Dhanbang",
+        "postal_pin_code": "22203",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Mahaneta",
+        "postal_pin_code": "22204",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Malneta",
+        "postal_pin_code": "22207",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Maidu",
+        "postal_pin_code": "22208",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Ragechour",
+        "postal_pin_code": "22209",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Bhalchaur",
+        "postal_pin_code": "22210",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Salyan",
+        "post_office": "Tharmare",
+        "postal_pin_code": "22211",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Sankhuwasabha",
+        "postal_pin_code": "56900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Hatiya",
+        "postal_pin_code": "56901",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Hedangana",
+        "postal_pin_code": "56902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Tamku",
+        "postal_pin_code": "56903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Chandanpur",
+        "postal_pin_code": "56904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Bahrabishe",
+        "postal_pin_code": "56905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Tumlingtar",
+        "postal_pin_code": "56906",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Wana",
+        "postal_pin_code": "56907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Shidhakali",
+        "postal_pin_code": "56908",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Madi",
+        "postal_pin_code": "56909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Ankhibhui",
+        "postal_pin_code": "56910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Mamling",
+        "postal_pin_code": "56911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Manebhanjyang",
+        "postal_pin_code": "56912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sankhuwasabha",
+        "post_office": "Chainpur",
+        "postal_pin_code": "56913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Saptari",
+        "postal_pin_code": "56400",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Hanuman Nagar",
+        "postal_pin_code": "56401",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Bairaba",
+        "postal_pin_code": "56402",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Phattepur",
+        "postal_pin_code": "56403",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Kanchanpur",
+        "postal_pin_code": "56404",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Praswani",
+        "postal_pin_code": "56405",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Bhagawatpur",
+        "postal_pin_code": "56406",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Koiladi",
+        "postal_pin_code": "56407",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Chhinnamasta",
+        "postal_pin_code": "56408",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Bishnupur",
+        "postal_pin_code": "56409",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Rupani",
+        "postal_pin_code": "56411",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Pato",
+        "postal_pin_code": "56412",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Arnaha",
+        "postal_pin_code": "56413",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Kalyanpur",
+        "postal_pin_code": "56414",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Bodebarsain",
+        "postal_pin_code": "56415",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Sisawa",
+        "postal_pin_code": "56416",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Kadarwona",
+        "postal_pin_code": "56417",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Saptari",
+        "post_office": "Bhardaha",
+        "postal_pin_code": "56418",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Sarlahi",
+        "postal_pin_code": "45800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Lalbandi",
+        "postal_pin_code": "45801",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Bayalbas",
+        "postal_pin_code": "45802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Haripurwa",
+        "postal_pin_code": "45803",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Hariaun",
+        "postal_pin_code": "45804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Haripur",
+        "postal_pin_code": "45805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Brahmapuri",
+        "postal_pin_code": "45806",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Kaudena",
+        "postal_pin_code": "45809",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Barahathawa",
+        "postal_pin_code": "45810",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Sundarpur",
+        "postal_pin_code": "45811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Dumariya",
+        "postal_pin_code": "45813",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Karmaiya",
+        "postal_pin_code": "45814",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Harkathawa",
+        "postal_pin_code": "45815",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Ramnagar(Bahuarwa)",
+        "postal_pin_code": "45816",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sarlahi",
+        "post_office": "Chhatauna",
+        "postal_pin_code": "45817",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Sindhuli",
+        "postal_pin_code": "45900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Solpa",
+        "postal_pin_code": "45901",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Bahun Tilpung",
+        "postal_pin_code": "45902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Dudhauli",
+        "postal_pin_code": "45903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Dakaha",
+        "postal_pin_code": "45904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Gwaltar",
+        "postal_pin_code": "45905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Khurkot",
+        "postal_pin_code": "45906",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Belghari",
+        "postal_pin_code": "45907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Bhiman",
+        "postal_pin_code": "45909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Jhanga Jholi",
+        "postal_pin_code": "45910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Netrakali",
+        "postal_pin_code": "45911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Kapilakot",
+        "postal_pin_code": "45912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhuli",
+        "post_office": "Pipalmadhiratanpur",
+        "postal_pin_code": "45913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Sindhupalchok",
+        "postal_pin_code": "45300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Kodari",
+        "postal_pin_code": "45301",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Barabise",
+        "postal_pin_code": "45302",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Atarpur",
+        "postal_pin_code": "45304",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Lamosanghu",
+        "postal_pin_code": "45305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Nawalpur",
+        "postal_pin_code": "45306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Pangtang",
+        "postal_pin_code": "45307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Jalbire",
+        "postal_pin_code": "45308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Bhotsipa",
+        "postal_pin_code": "45309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Melamchi Bahunepati",
+        "postal_pin_code": "45310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Gyalthum",
+        "postal_pin_code": "45311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Thangapaldhap",
+        "postal_pin_code": "45312",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Dubachaur",
+        "postal_pin_code": "45313",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sindhupalchok",
+        "post_office": "Balephi",
+        "postal_pin_code": "45314",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Siraha",
+        "postal_pin_code": "56500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Bastipur",
+        "postal_pin_code": "56501",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Lahan",
+        "postal_pin_code": "56502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Bhagawanpur",
+        "postal_pin_code": "56503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Dhanagadhi",
+        "postal_pin_code": "56504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Maheshpur patari",
+        "postal_pin_code": "56505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Bariyarpatti",
+        "postal_pin_code": "56506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Golbazar (Asanpur)",
+        "postal_pin_code": "56508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Sukhipur",
+        "postal_pin_code": "56509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Bishnupur",
+        "postal_pin_code": "56511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Belha",
+        "postal_pin_code": "56512",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Madar",
+        "postal_pin_code": "56513",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Mirchaiya",
+        "postal_pin_code": "56515",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Bandipur",
+        "postal_pin_code": "56516",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Siraha",
+        "post_office": "Kalyanpur",
+        "postal_pin_code": "56517",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Solukhumbu",
+        "postal_pin_code": "56000",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Namche Bazar",
+        "postal_pin_code": "56002",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Sotang",
+        "postal_pin_code": "56004",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Jubu",
+        "postal_pin_code": "56005",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Nele",
+        "postal_pin_code": "56006",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Necha",
+        "postal_pin_code": "56007",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Shishakhola",
+        "postal_pin_code": "56008",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Himaganga",
+        "postal_pin_code": "56009",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Solukhumbu",
+        "post_office": "Lukla",
+        "postal_pin_code": "56010",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Sunsari",
+        "postal_pin_code": "56700",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Mangalbare",
+        "postal_pin_code": "56702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Chatara",
+        "postal_pin_code": "56703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Bakalauri",
+        "postal_pin_code": "56704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Itahari",
+        "postal_pin_code": "56705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Simariya",
+        "postal_pin_code": "56706",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Duhabi",
+        "postal_pin_code": "56707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Chimadi",
+        "postal_pin_code": "56708",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Jhumka",
+        "postal_pin_code": "56709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Inarauwa",
+        "postal_pin_code": "56710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Aurabari",
+        "postal_pin_code": "56711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Dewangunj",
+        "postal_pin_code": "56712",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Madhuvan",
+        "postal_pin_code": "56713",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Laukahee",
+        "postal_pin_code": "56714",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Bhutaha",
+        "postal_pin_code": "56715",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Mahendra Nagar",
+        "postal_pin_code": "56716",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Sunsari",
+        "post_office": "Chhitaha",
+        "postal_pin_code": "56717",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Surkhet",
+        "postal_pin_code": "21700",
+        "post_office_type": "M.W.R.P.D."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Chhinchu",
+        "postal_pin_code": "21701",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Ramghat",
+        "postal_pin_code": "21702",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Sahare",
+        "postal_pin_code": "21703",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Gumi",
+        "postal_pin_code": "21704",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Bheriganga",
+        "postal_pin_code": "21705",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Matela",
+        "postal_pin_code": "21706",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Garpan",
+        "postal_pin_code": "21707",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Kunathari",
+        "postal_pin_code": "21709",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Babiyachaur",
+        "postal_pin_code": "21710",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Surkhet",
+        "post_office": "Gutu",
+        "postal_pin_code": "21711",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Syangja",
+        "postal_pin_code": "33800",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Kolma",
+        "postal_pin_code": "33802",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Kichnas",
+        "postal_pin_code": "33803",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Jharkham",
+        "postal_pin_code": "33804",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Arjunchaupari",
+        "postal_pin_code": "33805",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Panchamul",
+        "postal_pin_code": "33806",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Rangethanti",
+        "postal_pin_code": "33807",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Fedikhola",
+        "postal_pin_code": "33808",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Bhumare",
+        "postal_pin_code": "33811",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Kyakmi",
+        "postal_pin_code": "33812",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Waidha Bhanjhyang",
+        "postal_pin_code": "33813",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Chapakot",
+        "postal_pin_code": "33814",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Syanja",
+        "post_office": "Galyang",
+        "postal_pin_code": "33815",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Tanahun",
+        "postal_pin_code": "33900",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Tuhure Pasal",
+        "postal_pin_code": "33902",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Manechauka",
+        "postal_pin_code": "33903",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Bandipur",
+        "postal_pin_code": "33904",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Aanbu Khaireni",
+        "postal_pin_code": "33905",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Baidi",
+        "postal_pin_code": "33906",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Kahunshivapur",
+        "postal_pin_code": "33907",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Rising Ranipokhari",
+        "postal_pin_code": "33908",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Ghiring Sundhara",
+        "postal_pin_code": "33909",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Bhimad",
+        "postal_pin_code": "33910",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Lamagaun",
+        "postal_pin_code": "33911",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Khairenitar",
+        "postal_pin_code": "33912",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Shisha Ghat",
+        "postal_pin_code": "33913",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Dumre",
+        "postal_pin_code": "33914",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Tanahun",
+        "post_office": "Devaghat",
+        "postal_pin_code": "33915",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplajung",
+        "post_office": "Khewang",
+        "postal_pin_code": "57501",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplajung",
+        "post_office": "Sadeba",
+        "postal_pin_code": "57502",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplajung",
+        "post_office": "Thokimba",
+        "postal_pin_code": "57509",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplajung",
+        "post_office": "Dobhan",
+        "postal_pin_code": "57510",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Taplejung",
+        "postal_pin_code": "57500",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Sinam",
+        "postal_pin_code": "57503",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Pedang",
+        "postal_pin_code": "57504",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Thechambu",
+        "postal_pin_code": "57505",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Siwang",
+        "postal_pin_code": "57506",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Khokling",
+        "postal_pin_code": "57507",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Olangchunggola",
+        "postal_pin_code": "57508",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Change",
+        "postal_pin_code": "57511",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Taplejung",
+        "post_office": "Hangpang",
+        "postal_pin_code": "57512",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Terhathum",
+        "postal_pin_code": "57100",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Jirikhimti",
+        "postal_pin_code": "57102",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Tinjure",
+        "postal_pin_code": "57103",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Basantapur",
+        "postal_pin_code": "57104",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Sudap",
+        "postal_pin_code": "57105",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Hamarjung",
+        "postal_pin_code": "57106",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Morahang",
+        "postal_pin_code": "57107",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Pokalawang",
+        "postal_pin_code": "57108",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Mulpani",
+        "postal_pin_code": "57110",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Terhathum",
+        "post_office": "Iwa",
+        "postal_pin_code": "57111",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Udayapur",
+        "postal_pin_code": "56300",
+        "post_office_type": "D.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Ratapani (Thoksila)",
+        "postal_pin_code": "56301",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Beltar",
+        "postal_pin_code": "56302",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Hadiya",
+        "postal_pin_code": "56303",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Pokhari",
+        "postal_pin_code": "56305",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Baraha",
+        "postal_pin_code": "56306",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Bhutar",
+        "postal_pin_code": "56307",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Rampur Jhilke",
+        "postal_pin_code": "56308",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Udayapur Gadhi",
+        "postal_pin_code": "56309",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Katari",
+        "postal_pin_code": "56310",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Sorung Chhabise",
+        "postal_pin_code": "56311",
+        "post_office_type": "A.P.O."
+    },
+    {
+        "district": "Udayapur",
+        "post_office": "Rauta Murkuchi",
+        "postal_pin_code": "56312",
+        "post_office_type": "A.P.O."
+    }
+]
