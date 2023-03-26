@@ -174,3 +174,9 @@ class CurrencyRate(models.Model):
     unit=models.IntegerField(_("Unit"))
     buy=models.FloatField(_("Buy"))
     sell=models.DurationField(_("Sell"))
+
+class ProvinceDistricts(models.Model):
+    country=models.CharField(max_length=100,default="Nepal")
+    district=models.CharField(max_length=255,default='')
+    province=models.CharField(max_length=255,default='')
+    
