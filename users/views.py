@@ -372,3 +372,31 @@ def get_terms(requst,type=''):
 # TODO WELCOME
 
 # sync unit rates
+# 
+import json
+
+@api_view(['GET'])
+def store_postal_codes_Nepal(request):
+    PostalCode.objects.all().delete()
+    f=open('./nepal_postal_code.json')
+    data=json.load(f)
+    for i in data:
+        postal_code=PostalCode()
+        postal_code.district=i['district']
+        postal_code.post_office=i['post_office']
+        postal_code.postal_pin_code=i['postal_pin_code']
+        postal_code.post_office_type=i['post_office_type']
+        postal_code.save()
+    return JsonResponse({"data":data})
+@api_view(['GET'])
+def get_disticts_provinces(request):
+    f=open('./province_districts.json')
+    ProvinceDistricts.objects.all().delete()
+    data=json.load(f)
+    for i in data:
+        province_district=ProvinceDistricts()
+        province_district.district=i['district']
+        province_district.province=i['province']
+        print(province_district.district)
+        province_district.save()
+    return JsonResponse({"data":data})

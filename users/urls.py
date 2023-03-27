@@ -6,10 +6,26 @@ from django.conf import settings
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+
+
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
+# from .models import PostalCode
+# import json
+# def inser_postal():
+#     PostalCode.objects.all().delete()
+#     f=open('./nepal_postal_code.json')
+#     data=json.load(f)
+#     for i in data:
+#         postal_code=PostalCode()
+#         postal_code.district=i['district']
+#         postal_code.post_office=i['post_office']
+#         postal_code.postal_pin_code=i['postal_pin_code']
+#         postal_code.post_office_type=i['post_office_type']
+#         postal_code.save()
+# inser_postal()
 schema_view = get_schema_view(
    openapi.Info(
       title="Snippets API",
@@ -48,5 +64,7 @@ urlpatterns = [
     #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
+    path('insert_postal',views.store_postal_codes_Nepal),
+    path('provinces_district/',views.get_disticts_provinces),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

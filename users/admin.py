@@ -39,8 +39,9 @@ admin.site.register(TermsAndConditions)
 admin.site.register(IntendedUseOfAccount)
 admin.site.register(Ekyc) 
 admin.site.register(AppVersion)
- 
+admin.site.register(PostalCode)
 admin.site.register(ProfileDocuments)
+admin.site.register(ProvinceDistricts)
 class BannersAdmin(admin.ModelAdmin): # new
     readonly_fields = ['img_preview']
     list_display = ['title', 'img_preview']

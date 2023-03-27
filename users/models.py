@@ -166,7 +166,8 @@ class PostalCode(models.Model):
     post_office=models.CharField(_("Post office"), max_length=50)
     postal_pin_code=models.CharField(_("Postal/Pin Code"), max_length=100)
     postal_office_type=models.CharField(_("Post Office Type"), max_length=50)
-
+    def __str__(self):
+        return self.district
 
 class CurrencyRate(models.Model):
     iso3=models.CharField(_("ISO3"), max_length=50)
@@ -179,4 +180,6 @@ class ProvinceDistricts(models.Model):
     country=models.CharField(max_length=100,default="Nepal")
     district=models.CharField(max_length=255,default='')
     province=models.CharField(max_length=255,default='')
+    def __str__(self):
+        return self.province + " "+ self.district
     
