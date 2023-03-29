@@ -400,3 +400,42 @@ def get_disticts_provinces(request):
         print(province_district.district)
         province_district.save()
     return JsonResponse({"data":data})
+
+from unicodedata import lookup
+
+import iso3166
+def flag_emoji(name):
+    alpha = iso3166.countries.get(name).alpha2
+    box = lambda ch: chr( ord(ch) + 0x1f1a5 )
+    return box(alpha[0]) + box(alpha[1])
+    print(flag_emoji("Canada"))
+
+
+def print_all_flags():
+    flags=""
+    # i=0
+    data=[]
+
+    for i, c in enumerate( iso3166.countries ):
+        # print(flag_emoji(c.name), end="")
+        # print(i)
+        d=dict()
+        d['name']=c.name
+        d['flag']= (flag_emoji(c.alpha2.lower()))
+        # i+=1
+        # print(i)
+        # print(flag_emoji(c.alpha2.lower()))
+        # flags=flags+c.name+"\n" +(flag_emoji(c.alpha2.lower()))+"\n"
+        data.append(d)
+        # return flag_emoji(c.name)
+        # flags+(flag_emoji(c.name))
+    return data
+        # if i%25 == 24: print()
+def get_emoji_flag(request):
+    data=print_all_flags()
+    return JsonResponse( {
+        
+        "allflags":print_all_flags(),
+        # d['name']:d['flag'] for d in data,
+        # "allflags": (print_all_flags())
+        })

@@ -61,6 +61,7 @@ urlpatterns = [
     path('register/',views.register),
     path('address/<str:code>',views.get_address),
     path('user_agreement/<str:type>',views.get_terms),
+    path('emoji/',views.get_emoji_flag),
     #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
