@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'users', 
     'rest_framework',
      'rest_framework.authtoken',
-      'drf_yasg',
+    
+    'drf_yasg',
     'pyotp'
   
 ]
