@@ -785,3 +785,70 @@ def get_terms(requst,type=''):
 # TODO WELCOME
 
 # sync unit rates
+# 
+import json
+
+@api_view(['GET'])
+def store_postal_codes_Nepal(request):
+    PostalCode.objects.all().delete()
+    f=open('./nepal_postal_code.json')
+    data=json.load(f)
+    for i in data:
+        postal_code=PostalCode()
+        postal_code.district=i['district']
+        postal_code.post_office=i['post_office']
+        postal_code.postal_pin_code=i['postal_pin_code']
+        postal_code.post_office_type=i['post_office_type']
+        postal_code.save()
+    return JsonResponse({"data":data})
+@api_view(['GET'])
+def get_disticts_provinces(request):
+    f=open('./province_districts.json')
+    ProvinceDistricts.objects.all().delete()
+    data=json.load(f)
+    for i in data:
+        province_district=ProvinceDistricts()
+        province_district.district=i['district']
+        province_district.province=i['province']
+        print(province_district.district)
+        province_district.save()
+    return JsonResponse({"data":data})
+
+from unicodedata import lookup
+
+import iso3166
+def flag_emoji(name):
+    alpha = iso3166.countries.get(name).alpha2
+    box = lambda ch: chr( ord(ch) + 0x1f1a5 )
+    return box(alpha[0]) + box(alpha[1])
+    print(flag_emoji("Canada"))
+
+
+def print_all_flags():
+    flags=""
+    # i=0
+    data=[]
+
+    for i, c in enumerate( iso3166.countries ):
+        # print(flag_emoji(c.name), end="")
+        # print(i)
+        d=dict()
+        d['name']=c.name
+        d['flag']= (flag_emoji(c.alpha2.lower()))
+        # i+=1
+        # print(i)
+        # print(flag_emoji(c.alpha2.lower()))
+        # flags=flags+c.name+"\n" +(flag_emoji(c.alpha2.lower()))+"\n"
+        data.append(d)
+        # return flag_emoji(c.name)
+        # flags+(flag_emoji(c.name))
+    return data
+        # if i%25 == 24: print()
+def get_emoji_flag(request):
+    data=print_all_flags()
+    return JsonResponse( {
+        
+        "allflags":print_all_flags(),
+        # d['name']:d['flag'] for d in data,
+        # "allflags": (print_all_flags())
+        })
