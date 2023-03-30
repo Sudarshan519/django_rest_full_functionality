@@ -1,17 +1,17 @@
-from django.urls import include, path, re_path
-from rest_framework import routers
-from .import views
-from django.conf.urls.static import static
-from django.conf import settings
-from rest_framework import permissions
-from drf_yasg.views import get_schema_view
-from drf_yasg import openapi
+# from django.urls import include, path, re_path
+# from rest_framework import routers
+# from .import views
+# from django.conf.urls.static import static
+# from django.conf import settings
+# from rest_framework import permissions
+# from drf_yasg.views import get_schema_view
+# from drf_yasg import openapi
 
 
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-)
+# from rest_framework_simplejwt.views import (
+#     TokenObtainPairView,
+#     TokenRefreshView,
+# )
 # from .models import PostalCode
 # import json
 # def inser_postal():
@@ -26,6 +26,75 @@ from rest_framework_simplejwt.views import (
 #         postal_code.post_office_type=i['post_office_type']
 #         postal_code.save()
 # inser_postal()
+# schema_view = get_schema_view(
+#    openapi.Info(
+#       title="Snippets API",
+#       default_version='v1',
+#       description="Test description",
+#       terms_of_service="https://www.google.com/policies/terms/",
+#       contact=openapi.Contact(email="contact@snippets.local"),
+#       license=openapi.License(name="BSD License"),
+#    ),
+#    public=True,
+#    permission_classes=[permissions.AllowAny],
+# )
+# router = routers.DefaultRouter()
+# router.register(r'banners',views.BannerViewSet,basename='banners')
+# router.register(r'documents',views.ProfileDocumentViewset,basename='profileDocuments')
+# router.register(r'users', views.UserViewSet,'users')
+# router.register(r'document_history',viewset=views.ProfileVersionViewSet,basename='documents_versions')
+# # router.register(r'groups', views.GroupViewSet)
+# # router.register(r'register', views.register.as_view(),basename='register')
+# # register_user=
+# # router.register(r'signup',views.RegisterViewSet,basename='register')
+# # Wire up our API using automatic URL routing.
+# # Additionally, we include login URLs for the browsable API.
+# urlpatterns = [
+#     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+#     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+#     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+#     path('get-otp/<str:email>',views.get_otp),#<str:email>
+#     path('verify-otp/',views.getPhoneNumberRegistered.as_view()),#<str:email>
+#     path('', include(router.urls)),
+#     path('login/',views.LoginView.as_view()),
+#     path('get-signup-info/',views.get_signup_info),
+#     path('register/',views.register),
+#     path('address/<str:code>',views.get_address),
+#     path('user_agreement/<str:type>',views.get_terms),
+#     #  re_path(r'^auth/', include('djoser.urls')),
+#     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+#     path('hello/',views.hello),
+#     path('insert_postal',views.store_postal_codes_Nepal),
+#     path('provinces_district/',views.get_disticts_provinces),
+#     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+import json
+from django.urls import include, path, re_path
+from rest_framework import routers
+
+# from users.models import PostalCode
+from .import views
+from django.conf.urls.static import static
+from django.conf import settings
+from rest_framework import permissions
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
+# def updateNepal_postal_codes():
+#     f =open('nepal_postal_code.json')
+#     data=json.load(f)
+#     PostalCode.objects.all().delete()
+#     for i in data:
+#         # print(i['district'])
+#         postalcode=PostalCode()
+#         postalcode.district=i['district']
+#         postalcode.post_office=i['post_office']
+#         postalcode.postal_pin_code=i['postal_pin_code']
+#         postalcode.postal_office_type=i['post_office_type']
+#         postalcode.save()
+# updateNepal_postal_codes()
 schema_view = get_schema_view(
    openapi.Info(
       title="Snippets API",
@@ -42,6 +111,7 @@ router = routers.DefaultRouter()
 router.register(r'banners',views.BannerViewSet,basename='banners')
 router.register(r'documents',views.ProfileDocumentViewset,basename='profileDocuments')
 router.register(r'users', views.UserViewSet,'users')
+router.register(r'app_version', views.AppVersionViewset,'versions')
 router.register(r'document_history',viewset=views.ProfileVersionViewSet,basename='documents_versions')
 # router.register(r'groups', views.GroupViewSet)
 # router.register(r'register', views.register.as_view(),basename='register')
@@ -61,11 +131,8 @@ urlpatterns = [
     path('register/',views.register),
     path('address/<str:code>',views.get_address),
     path('user_agreement/<str:type>',views.get_terms),
-    path('emoji/',views.get_emoji_flag),
     #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
-    path('insert_postal',views.store_postal_codes_Nepal),
-    path('provinces_district/',views.get_disticts_provinces),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
