@@ -183,3 +183,16 @@ class ProvinceDistricts(models.Model):
     def __str__(self):
         return self.province + " "+ self.district
     
+class Country(models.Model):
+    country=models.CharField(_("Country"), max_length=150)
+    continent=models.CharField(_("Continent"), max_length=50)
+    estimate=models.CharField(_("Estimate"), max_length=50)
+    year=models.CharField(_("Year"), max_length=50)
+    estimate2=models.CharField(_("Estimate2"), max_length=50)
+    year2=models.CharField(_("Year2"), max_length=50)
+    flag_img=models.URLField(_("flag image"), max_length=200)
+
+    def img_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = "https:"+self.flag_img
+         ))
