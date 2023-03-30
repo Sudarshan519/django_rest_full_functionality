@@ -785,8 +785,6 @@ def get_terms(requst,type=''):
 # TODO WELCOME
 
 # sync unit rates
-<<<<<<< HEAD
-=======
 # 
 import json
 
@@ -828,7 +826,7 @@ def flag_emoji(name):
 
 def print_all_flags():
     flags=""
-    i=1
+    # i=0
     data=[]
 
     for i, c in enumerate( iso3166.countries ):
@@ -837,8 +835,7 @@ def print_all_flags():
         d=dict()
         d['name']=c.name
         d['flag']= (flag_emoji(c.alpha2.lower()))
-        i+=1
-        d['id']=i
+        # i+=1
         # print(i)
         # print(flag_emoji(c.alpha2.lower()))
         # flags=flags+c.name+"\n" +(flag_emoji(c.alpha2.lower()))+"\n"
@@ -855,26 +852,3 @@ def get_emoji_flag(request):
         # d['name']:d['flag'] for d in data,
         # "allflags": (print_all_flags())
         })
-<<<<<<< HEAD
->>>>>>> 8813300 (emoji)
-=======
-
-def get_country_list(request):
-    f=open('./country_gdp.json')
-    data=json.load(f)
-
-    for i in data:
-        print(i.get("flag_img","//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png"))
-        country=Country()
-        country.country=i['name']
-        country.continent=i['continent']
-        if (i.get("flag_img","//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png") is not None):
-            country.flag_img=i.get("flag_img","//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png")
-        country.year=i['year']
-        country.estimate=i['estimate']
-        country.year2=i['year_2']
-        country.estimate2=i['estimate_2']
-        # print(country.district)
-        country.save()
-    return JsonResponse({"data":data})
->>>>>>> f867bd9 (country database)
