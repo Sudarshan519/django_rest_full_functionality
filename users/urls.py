@@ -50,6 +50,8 @@ router.register(r'document_history',viewset=views.ProfileVersionViewSet,basename
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
+    path('home',views.home),
+    path('latest-transactions',views.get_latest_transactions),
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
@@ -66,7 +68,7 @@ urlpatterns = [
     #  re_path(r'^auth/', include('djoser.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
-    path('insert_postal',views.store_postal_codes_Nepal),
+    path('insert_postal/',views.store_postal_codes_Nepal),
     path('get_rates_list',views.get_rates_list),
     path('provinces_district/',views.get_disticts_provinces),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))

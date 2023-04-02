@@ -377,22 +377,31 @@ import json
 
 @api_view(['GET'])
 def store_postal_codes_Nepal(request):
-    PostalCode.objects.all().delete()
-    f=open('./nepal_postal_code.json')
-    data=json.load(f)
-    for i in data:
-        postal_code=PostalCode()
-        postal_code.district=i['district']
-        postal_code.post_office=i['post_office']
-        postal_code.postal_pin_code=i['postal_pin_code']
-        postal_code.post_office_type=i['post_office_type']
-        postal_code.save()
-    return JsonResponse({"data":data})
+    # PostalCode.objects.all().delete()
+    data=PostalCode.objects.all()
+    postal=[]
+    for d in data:
+        postal.append(model_to_dict(d))
+    # f=open('./nepal_postal_code.json')
+    # data=json.load(f)
+    # postalcodes=[]
+    # for i in data:
+    #     postal_code=PostalCode()
+    #     postal_code.district=i['district']
+    #     postal_code.post_office=i['post_office']
+    #     postal_code.postal_pin_code=i['postal_pin_code']
+    #     postal_code.post_office_type=i['post_office_type']
+    #     # postal_code.save()
+    #     postal.append(postal_code)
+    # PostalCode.objects.bulk_create(postal)
+    # return JsonResponse({"data":data})
+    return JsonResponse({"data":postal})
 @api_view(['GET'])
 def get_disticts_provinces(request):
     f=open('./province_districts.json')
     ProvinceDistricts.objects.all().delete()
     data=json.load(f)
+    
     for i in data:
         province_district=ProvinceDistricts()
         province_district.district=i['district']
@@ -462,7 +471,57 @@ def get_country_list(request):
 from .exchange_rates import get_rates
 def get_rates_list(request):
     data=(get_rates())
-    # for k,v in (get_rates):
-    #     print(k)
-    #     print(v)
+    objects=[]
+    for kv in (data['data']['payload']):
+        # print(kv)
+        # print(data[kv])
+        created_at=kv['published_on']
+        # print(created_at)
+        updated_at=kv['modified_on']
+        for a in kv['rates']:
+            # print(a)
+            currencyrate=CurrencyRate()
+            # currencyrate.created_at=created_at
+            # currencyrate.updated_at=updated_at
+            
+            currencyrate.name=a['currency']['name']
+            currencyrate.iso3=a['currency']['iso3']
+            currencyrate.buy=a['buy']
+            currencyrate.sell=a['sell']
+            currencyrate.unit=a['currency']['unit']
+            # print(currencyrate)
+            # currencyrate.save()
+            objects.append(currencyrate)
+
+        # print(len(objects))
+        CurrencyRate.objects.bulk_create(objects)
+        # print(data[kv])
+        # for k,v in data[kv]:
+        #     print(k)
+        #     print(v)
+
+        # print(v)
+
     return JsonResponse({"exchange_rates":data}) #json.loads(data)})
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def home(request):
+    return JsonResponse({"profile":{},"quick_send":[],"transactions":[],})
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def get_latest_transactions(request):
+    return JsonResponse({"transactions":[]},safe=True)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def profile(request):
+    return JsonResponse({"profile":[]})
+
+# def get_model_fields(model):
+#     return model._meta.fields
+# def get_fields(request):
+#     return get_model_fields(CurrencyRate)
+    

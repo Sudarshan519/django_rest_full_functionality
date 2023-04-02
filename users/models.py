@@ -29,7 +29,9 @@ class Profession(models.Model):
 class UserDocuments(models.Model):
     user=models.ForeignKey("users.CustomUser", verbose_name=_("User"), on_delete=models.CASCADE)
     password_image=models.FileField(_("Passport Images"), upload_to=None, max_length=100,null=True,blank=True)
-
+    def __str__(self):
+        return self.user
+    
 class Profile(models.Model):
     user=models.ForeignKey("users.CustomUser",default=1, verbose_name=_("User"), on_delete=models.CASCADE)
     profile_type= models.ForeignKey(ResidenceType,default=1, on_delete=models.CASCADE)
@@ -47,7 +49,7 @@ class Profile(models.Model):
     business_name=models.CharField(_("Business Name"), max_length=50,default="None")
     registration_number=models.CharField(_("Registration number"), max_length=50,blank=True,null=True)
     def __str__(self):
-        return self.first_name
+        return self.user
 
 class ProfileDocuments(models.Model):
     
@@ -62,15 +64,49 @@ class ProfileDocuments(models.Model):
     blink=models.ImageField(_("Blink Image"), upload_to='media', height_field=None, width_field=None, max_length=None,)
     def __str__(self) -> str:
         return self.user.email
+
+
+    def front_img_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.front_img.url
+         ))
+
+    def back_img_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.back_img.url
+         ))
+
+    def tilted_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.tilted.url
+         ))
+        
+    def profile_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.tilted.url
+         ))
+    def blink_preview(self):
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = self.blink.url
+         ))
     class Meta:
         ordering=('-created_at',)
+
+    def __str__(self):
+        return self.user
+    
 class TermsAndConditions(models.Model):
     name=models.CharField(_("Type"), max_length=50)
     detail=models.TextField(null=True,blank=True)
+    def __str__(self):
+        return self.name
+    
 
 class IntendedUseOfAccount(models.Model):
     name=models.CharField(_("Indended Use of Account"), max_length=50)
-
+    def __str__(self):
+        return self.name
+    
 class Ekyc(models.Model):   
     user=models.ForeignKey("users.CustomUser",default=1, verbose_name=_("User"), on_delete=models.CASCADE)
     front_img=models.ImageField(_("Front Image"), upload_to='media/', height_field=None, width_field=None, max_length=None,null=True,blank=True)
@@ -92,6 +128,8 @@ class Ekyc(models.Model):
     tax_return=models.FileField(_("Tax Return"), upload_to='media', max_length=100,null=True,blank=True)
     audit_report=models.FileField(_("Audit Report"), upload_to='media', max_length=100,null=True,blank=True)
     created_at=models.DateTimeField(_(""), auto_now=True,  )
+    def __str__(self):
+        return self.user
     
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
@@ -115,6 +153,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+
 
     def kyc_updated(self):
         data=self.ekyc_set.all()
@@ -166,16 +205,21 @@ class PostalCode(models.Model):
     post_office=models.CharField(_("Post office"), max_length=50)
     postal_pin_code=models.CharField(_("Postal/Pin Code"), max_length=100)
     postal_office_type=models.CharField(_("Post Office Type"), max_length=50)
-    def __str__(self):
-        return self.district
+    # def __str__(self):
+    #     return self.district
 
 class CurrencyRate(models.Model):
+    created_at=models.DateTimeField(_("Created Date"), auto_now=False, auto_now_add=True,null=True)
+    updated_at=models.DateTimeField(_("Updated Date"), auto_now=True, auto_now_add=False,null=True)
     iso3=models.CharField(_("ISO3"), max_length=50)
     name=models.CharField(_("NAME"), max_length=50)
-    unit=models.IntegerField(_("Unit"))
+    unit=models.IntegerField(_("Unit"),default=1)
     buy=models.FloatField(_("Buy"))
-    sell=models.DurationField(_("Sell"))
-
+    sell=models.FloatField(_("Sell"))
+    # def __str__(self):
+    #     return f'{self.name} {self.created_at} {self.updated_at} {self.name} {self.buy} {self.sell}'
+    
+    
 class ProvinceDistricts(models.Model):
     country=models.CharField(max_length=100,default="Nepal")
     district=models.CharField(max_length=255,default='')
