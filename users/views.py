@@ -459,3 +459,10 @@ def get_country_list(request):
         # print(country.district)
         country.save()
     return JsonResponse({"data":data})
+from .exchange_rates import get_rates
+def get_rates_list(request):
+    data=(get_rates())
+    # for k,v in (get_rates):
+    #     print(k)
+    #     print(v)
+    return JsonResponse({"exchange_rates":data}) #json.loads(data)})

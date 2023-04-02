@@ -67,6 +67,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('hello/',views.hello),
     path('insert_postal',views.store_postal_codes_Nepal),
+    path('get_rates_list',views.get_rates_list),
     path('provinces_district/',views.get_disticts_provinces),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

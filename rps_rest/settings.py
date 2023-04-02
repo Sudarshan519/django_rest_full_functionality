@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'rest_framework',
      'rest_framework.authtoken',
       'drf_yasg',
-    'pyotp'
+    'pyotp',
+    'dashboard',
+    'bootstrap5',
   
 ]
 
@@ -64,7 +66,7 @@ ROOT_URLCONF = 'rps_rest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -170,3 +172,5 @@ SIMPLE_JWT = {
 #     'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
 #     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+
+LOGIN_REDIRECT_URL = 'dashboard'
