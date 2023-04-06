@@ -171,14 +171,14 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 #     counter = models.IntegerField(default=0, blank=False)
 #     def __str__(self):
 #         return str(self.Mobile)
-type_choices=((0,'Android'),(1,'Ios'))
-class AppVersion(models.Model):
-    action_choices=((1,'Soft Update'),(2,'Force Update'),(3,'Maintainence'))
-    type=models.IntegerField(choices=type_choices,default=0)
-    title=models.CharField(max_length=20,default='')
-    version=models.CharField(max_length=20,default='')
-    message=models.CharField(max_length=255,default='')
-    update_action=models.IntegerField(choices=action_choices,default=1)
+# type_choices=((0,'Android'),(1,'Ios'))
+# class AppVersion(models.Model):
+#     action_choices=((1,'Soft Update'),(2,'Force Update'),(3,'Maintainence'))
+#     type=models.IntegerField(choices=type_choices,default=0)
+#     title=models.CharField(max_length=20,default='')
+#     version=models.CharField(max_length=20,default='')
+#     message=models.CharField(max_length=255,default='')
+#     update_action=models.IntegerField(choices=action_choices,default=1)
     
 # class AndroidVersion(BaseVersion):
 #     type=models.IntegerField(default=0)

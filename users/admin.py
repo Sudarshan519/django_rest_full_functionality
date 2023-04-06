@@ -38,7 +38,7 @@ admin.site.register(UserDocuments)
 admin.site.register(TermsAndConditions)
 admin.site.register(IntendedUseOfAccount)
 admin.site.register(Ekyc) 
-admin.site.register(AppVersion)
+# admin.site.register(AppVersion)
 # admin.site.register(PostalCode)
 @admin.register(PostalCode)
 class PostalCodeAdmin(admin.ModelAdmin):
