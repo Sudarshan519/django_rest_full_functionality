@@ -130,7 +130,11 @@ class Ekyc(models.Model):
     created_at=models.DateTimeField(_(""), auto_now=True,  )
     def __str__(self):
         return self.user
-    
+
+
+
+# class UserLimit(models.Model):
+
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
     email = models.EmailField(_("email address"), unique=True,null=False,)
@@ -142,8 +146,9 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     emailVerified=models.BooleanField(blank=False,default=False)
     profileVerified=models.BooleanField(blank=False,default=False)
     kycVerified=models.IntegerField(
-        choices=((0,'Uniniialized'),(1,'Pending'),(2,'Verified')),
+        choices=((0,'Uniniialized'),(1,'Pending'),(2,'Verified'),),
         blank=False,default=0)
+    kyc_type=models.ForeignKey("users.EKycType", on_delete=models.CASCADE,default=1)
     gps=models.CharField(max_length=60,default="")
     counter = models.IntegerField(default=0, blank=False)
     USERNAME_FIELD = "email"
@@ -165,6 +170,31 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
             return True
         else:
             return False
+
+    # def check_limit(self):
+    #     print(self.kyc_type)
+    #     # TODO CHECK DAILY LIMIT
+    #     return True
+    # def check_daily_limit(self):
+    #     # TODO CHECK DAILY LIMIT
+    #     return True
+    # def check_monthly_limit(self):
+    #     # TODO CHECK DAILY LIMIT
+    #     return True
+    # def check_quaterly_limit(self):
+    #     # TODO CHECK DAILY LIMIT
+    #     return True
+    # def check_yearly_limit(self):
+    #     # TODO CHECK DAILY LIMIT
+    #     return True
+
+    def all_users(self):
+        self.objects.all()
+
+    # @property
+    # def is_staff(self):
+    #     # Handle whether the user is a member of staff?"
+    #     return self.is_admin
 # class phoneModel(models.Model):
 #     Mobile = models.IntegerField(blank=False)
 #     isVerified = models.BooleanField(blank=False, default=False)
@@ -240,3 +270,46 @@ class Country(models.Model):
         return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
              url = "https:"+self.flag_img
          ))
+
+
+from django.conf import settings
+class TransactionType(models.Model):
+    CHOICES=((0,"Credit Card"),(2,"Bank"),(3,"Cash"),(4,"Wallet"))
+    transaction_type=models.IntegerField(_("Transactions type"),choices=CHOICES)
+    name=models.CharField(_("name"), max_length=50)
+    account_number=models.IntegerField(_("Account Number"))
+    # account_holder_name=models.CharField(_("Account Name"), max_length=150)
+from django.core.validators import MaxValueValidator, MinValueValidator
+class Transactions(models.Model):
+    created_at=models.DateTimeField(_("Created Date"),auto_now_add=True)
+    updated_at=models.DateTimeField(_("Updated Date"),auto_now=True)
+    amount=models.FloatField(_("Transaction Amount"),validators=[MinValueValidator(10.0),],)
+    transaction_by=models.ForeignKey(settings.AUTH_USER_MODEL,  on_delete=models.CASCADE,related_name="users_send")
+    transaction_to=models.ForeignKey("users.CustomUser",  on_delete=models.CASCADE,related_name="users_received")
+    charge_amount=models.FloatField(_("Charge Amount"),default=50.0)
+    transaction_type=models.ForeignKey("users.TransactionType",   on_delete=models.CASCADE)
+    remarks=models.CharField(_("Remarks"), max_length=150)
+
+
+class EkycType(models.Model):
+    CHOICES=((0,"Unverified"),(2,"Basic"),(3,"Full"))
+    status=models.IntegerField(_("EKYC Type"),choices=CHOICES ,default=0)
+    transactions_limit_per_day=models.IntegerField(_("Transactions limit per day"))
+    transactions_limit_per_month=models.IntegerField(_("Transactions limit by month"))
+    transactions_limit_per_six_months=models.IntegerField(_("Transactions limit by half year"))
+    transactions_limit_per_year=models.IntegerField(_("Transactions limit by year"))
+    transactions_amount_per_day=models.IntegerField(_("Transactions amount per day"))
+    transactions_amount_per_month=models.IntegerField(_("Transactions amount by month"))
+    transactions_amount_per_six_months=models.IntegerField(_("Transactions amount by half year"))
+    transactions_amount_per_year=models.IntegerField(_("Transactions amount by year"))
+    def __str__(self):
+        return self.CHOICES[self.status-1][1]
+    
+    def isFullKyc(slef):
+        return self.status==3
+    
+    def isBasicKyc(self):
+        return self.status==2
+
+    def isAuthorized(self):
+        return self.status is not 0

@@ -29,7 +29,7 @@ class CustomUserAdmin(UserAdmin):
     ordering = ("email",)
 
 
-admin.site.register(CustomUser, CustomUserAdmin)
+admin.site.register(CustomUser)#, CustomUserAdmin)
 admin.site.register(ResidenceType)
 admin.site.register(StatusOfResidence)
 admin.site.register(Profession)
@@ -40,6 +40,7 @@ admin.site.register(IntendedUseOfAccount)
 admin.site.register(Ekyc) 
 # admin.site.register(AppVersion)
 # admin.site.register(PostalCode)
+admin.site.register(EkycType)
 @admin.register(PostalCode)
 class PostalCodeAdmin(admin.ModelAdmin):
     list_display=[k.name  for k in PostalCode._meta.fields]
@@ -72,3 +73,8 @@ class CountryAdmin(admin.ModelAdmin):
     list_display=["img_preview","country","continent"]
 
 admin.site.register(Country,CountryAdmin)
+admin.site.register(TransactionType)
+@admin.register(Transactions)
+
+class Transactions(admin.ModelAdmin):
+    list_display=[k.name  for k in Transactions._meta.fields]
