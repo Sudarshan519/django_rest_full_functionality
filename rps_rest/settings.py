@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'pyotp',
     'dashboard',
     'bootstrap5',
+    'hajir'
   
 ]
 
