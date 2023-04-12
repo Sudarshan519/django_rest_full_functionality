@@ -38,10 +38,10 @@ class Company(models.Model):
     choices=StaffCode.choices,max_length=50,default=StaffCode.auto,)
     
     #   sunday =1 and so on
-    business_leave_days=models.ForeignKey(BusinessLeaveDays,  on_delete=models.CASCADE)
-    special_leave_days=models.ForeignKey("hajir.SpecialLeaveDays", verbose_name=_("special leave"), on_delete=models.CASCADE)
+    # business_leave_days=models.ForeignKey(BusinessLeaveDays,  on_delete=models.CASCADE)
+    # special_leave_days=models.ForeignKey("hajir.SpecialLeaveDays", verbose_name=_("special leave"), on_delete=models.CASCADE)
     office_hour_start=models.CharField(_("Office hour start"), max_length=50)
     office_hour_end =models.CharField(_("Office hour end"), max_length=50)
     access_network=models.CharField(_("Access Network"), max_length=50)
     probablation_peroid=models.CharField(_("Probablation Peroid"),choices=((1,"1 months"),(3,"3 Months"),(6,"6 Months")),default=3, max_length=50)
-    sick_leave=models.ForeignKey("hajir.SickLeave", verbose_name=_("sick leave"),null=True, on_delete=models.CASCADE)
+    # sick_leave=models.ForeignKey("hajir.SickLeave", verbose_name=_("sick leave"),null=True, on_delete=models.CASCADE)
