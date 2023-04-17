@@ -1,9 +1,11 @@
 from django.shortcuts import render 
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 from django.views.generic import CreateView
 # from .models import Employee
 # from .forms import EmployeeSignupForm
 # Create your views here.
+from rest_framework.decorators import api_view, schema
+@api_view(['GET'])
 def get_ip_address(request):
     """ use requestobject to fetch client machine's IP Address """
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -11,6 +13,8 @@ def get_ip_address(request):
         ip = x_forwarded_for.split(',')[0]
     else:
         ip = request.META.get('REMOTE_ADDR')    ### Real IP address of client Machine
+    
+    return JsonResponse({"id":ip})
     return HttpResponse(ip)  
 
 

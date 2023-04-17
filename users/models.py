@@ -142,7 +142,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
     is_employee=models.BooleanField(_("IsEmployee"),default=True)
     is_employer=models.BooleanField(_("IsEmployer"),default=False)
-    email = models.EmailField(_("email address"),default="no@mail.com" unique=False,null=False,)
+    email = models.EmailField(_("email address"),default="no@mail.com", unique=True,null=False,)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     date_joined = models.DateTimeField(default=timezone.now) 

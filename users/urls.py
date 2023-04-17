@@ -30,6 +30,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="Snippets API",
       default_version='v1',
+      urlpath='hajir.urls',
       description="Test description",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="contact@snippets.local"),
@@ -49,8 +50,31 @@ router.register(r'document_history',viewset=views.ProfileVersionViewSet,basename
 # router.register(r'signup',views.RegisterViewSet,basename='register')
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
+
+
+from drf_yasg.generators import OpenAPISchemaGenerator
+class PublicAPISchemeGenerator(OpenAPISchemaGenerator):
+    def get_schema(self, request=None, public=False):
+        schema = super().get_schema(request, public)
+        schema.base_path = '/'
+        return schema
+
+public_schema_view = get_schema_view(   openapi.Info(
+      title="Hajir API",
+      default_version='v1',
+      description="Test description",
+     
+      terms_of_service="https://www.google.com/policies/terms/",
+      contact=openapi.Contact(email="contact@snippets.local"),
+      license=openapi.License(name="BSD License"),
+   ),
+                                     urlconf='hajir.urls',
+                                     generator_class=PublicAPISchemeGenerator)
 urlpatterns = [
+    #   path('hajir/',include('hajir.urls')),
+    path('public/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),
     path('home',views.home),
+    
     path('latest-transactions',views.get_latest_transactions),
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
@@ -71,5 +95,6 @@ urlpatterns = [
     path('insert_postal/',views.store_postal_codes_Nepal),
     path('get_rates_list',views.get_rates_list),
     path('provinces_district/',views.get_disticts_provinces),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+   
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
