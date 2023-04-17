@@ -87,18 +87,18 @@ WSGI_APPLICATION = 'rps_rest.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    #  'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'testdb',
+    #     'USER': 'root',
+    #     'PASSWORD': 'root',
+    #     'HOST':'localhost',
+    #     'PORT':'3306',
     # }
-     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testdb',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST':'localhost',
-        'PORT':'3306',
-    }
 
 }
 
@@ -144,7 +144,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-AUTH_USER_MODEL = "users.CustomUser"
+
 import os
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
@@ -186,3 +186,5 @@ SIMPLE_JWT = {
 }
 
 LOGIN_REDIRECT_URL = 'dashboard'
+AUTH_USER_MODEL = "users.CustomUser"
+# AUTH_USER_MODEL = "hajir.User"

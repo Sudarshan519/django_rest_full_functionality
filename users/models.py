@@ -136,8 +136,13 @@ class Ekyc(models.Model):
 # class UserLimit(models.Model):
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
+    is_employee=models.BooleanField(_("Employee"),default=False)
+    is_employer=models.BooleanField(_("Employer"),default=False)
+    wallet_user=models.BooleanField(_("Wallet User"),default=True)
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
-    email = models.EmailField(_("email address"), unique=True,null=False,)
+    is_employee=models.BooleanField(_("IsEmployee"),default=True)
+    is_employer=models.BooleanField(_("IsEmployer"),default=False)
+    email = models.EmailField(_("email address"),default="no@mail.com" unique=False,null=False,)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     date_joined = models.DateTimeField(default=timezone.now) 
@@ -148,7 +153,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     kycVerified=models.IntegerField(
         choices=((0,'Uniniialized'),(1,'Pending'),(2,'Verified'),),
         blank=False,default=0)
-    kyc_type=models.ForeignKey("users.EKycType", on_delete=models.CASCADE,default=1)
+    kyc_type=models.ForeignKey("users.EKycType", on_delete=models.CASCADE,blank=True,null=True)
     gps=models.CharField(max_length=60,default="")
     counter = models.IntegerField(default=0, blank=False)
     USERNAME_FIELD = "email"
@@ -292,7 +297,7 @@ class Transactions(models.Model):
 
 
 class EkycType(models.Model):
-    CHOICES=((0,"Unverified"),(2,"Basic"),(3,"Full"))
+    CHOICES=((1,"Unverified"),(2,"Basic"),(3,"Full"))
     status=models.IntegerField(_("EKYC Type"),choices=CHOICES ,default=0)
     transactions_limit_per_day=models.IntegerField(_("Transactions limit per day"))
     transactions_limit_per_month=models.IntegerField(_("Transactions limit by month"))
@@ -312,4 +317,4 @@ class EkycType(models.Model):
         return self.status==2
 
     def isAuthorized(self):
-        return self.status is not 0
+        return self.status != 0
