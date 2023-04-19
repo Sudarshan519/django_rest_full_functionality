@@ -142,7 +142,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     CHOICES=((1,"Japanese"),(2,"Foreigner"))
     is_employee=models.BooleanField(_("IsEmployee"),default=True)
     is_employer=models.BooleanField(_("IsEmployer"),default=False)
-    email = models.EmailField(_("email address"),default="no@mail.com", unique=True,null=False,)
+    email = models.CharField(_("email address"),default="no@mail.com", unique=True,null=False,max_length=100 )
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     date_joined = models.DateTimeField(default=timezone.now) 
@@ -151,10 +151,10 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     emailVerified=models.BooleanField(blank=False,default=False)
     profileVerified=models.BooleanField(blank=False,default=False)
     kycVerified=models.IntegerField(
-        choices=((0,'Uniniialized'),(1,'Pending'),(2,'Verified'),),
+        choices=((0,'Uninitialized'),(1,'Pending'),(2,'Verified'),),
         blank=False,default=0)
     kyc_type=models.ForeignKey("users.EKycType", on_delete=models.CASCADE,blank=True,null=True)
-    gps=models.CharField(max_length=60,default="")
+    gps=models.CharField(max_length=60,blank=True,)
     counter = models.IntegerField(default=0, blank=False)
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []

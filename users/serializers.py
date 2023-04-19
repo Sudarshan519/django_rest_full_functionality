@@ -7,7 +7,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     profileDocuments = serializers.HyperlinkedRelatedField(many=True, view_name='users:profileDocuments', read_only=True)
     class Meta:
         model = CustomUser
-        fields = [  'email','kyc_updated','emailVerified','profileDocuments'#, 'groups''username','url',
+        fields = [ 'id', 'email','kyc_updated','emailVerified','profileDocuments'#, 'groups''username','url',
         ]
     def create(self, validated_data):
         return super().create(validated_data)
@@ -24,6 +24,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
         fields = ['url', 'name']
+from django.contrib.auth.hashers import make_password
 
 class RegisterSerializer(serializers.ModelSerializer):   
 
@@ -34,6 +35,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def validate_password(self, data):
             validators.validate_password(password=data, user=User)
+            data=make_password(data)
             return data
 
 class OtpSerializer(serializers.Serializer):

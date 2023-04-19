@@ -72,7 +72,7 @@ public_schema_view = get_schema_view(   openapi.Info(
                                      generator_class=PublicAPISchemeGenerator)
 urlpatterns = [
     #   path('hajir/',include('hajir.urls')),
-    path('public/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),
+    # path('hajir/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),
     path('home',views.home),
     
     path('latest-transactions',views.get_latest_transactions),

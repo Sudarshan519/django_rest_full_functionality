@@ -30,7 +30,15 @@ class generateKey:
     def returnValue(phone): 
         return str(phone) + str(datetime.datetime.now().day) + "Some Random Secret Key"
 
-
+def otp_from_email(email):
+    keygen = generateKey()
+    key = base64.b32encode(keygen.returnValue(email).encode())  # Key is generated
+    return pyotp.HOTP(key) 
+def verifyotp(otp,counter):
+    keygen = generateKey()
+    key = base64.b32encode(keygen.returnValue(email).encode())  # Key is generated
+    OTP = pyotp.HOTP(key)
+    return OTP.verify(otp,counter)
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -54,14 +62,14 @@ class GroupViewSet(viewsets.ModelViewSet):
 @api_view(['POST'])
 
 def register(request):
-    print(request.data)
     serializer=RegisterSerializer(data=request.data)
     
     if serializer.is_valid():
-        serializer.save()
-        request.headers['email']=serializer.data['email']
+        user=serializer.save()
+        OTP=otp_from_email(serializer.data['email'])
+        # request.headers['email']=serializer.data['email']
         # getPhoneNumberRegistered.get(request),#,email=serializer.data['email'])
-        return Response(serializer.data,status=status.HTTP_201_CREATED)
+        return Response({"otp":OTP.at(user.counter)},status=status.HTTP_201_CREATED)
         getPhoneNumberRegistered.get(email=serializer.data['email'])
     return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
 
@@ -139,26 +147,33 @@ class LoginView(APIView):
 # from drf_yasg import openapi
 # header_param = openapi.Parameter('email',openapi.IN_QUERY,description="local header param", type=openapi.IN_BODY)
 
+
 @api_view(['GET'])
 def get_otp(request,email):#email
-        print(email)
+ 
         try:
             user = CustomUser.objects.get(email=email)  # if Mobile already exists the take this else create New One
         except ObjectDoesNotExist:
             return Response({"error":"User not registered"},404)
-            # CustomUser.objects.create(
-            #     email=email,
-            # )
-            # user = CustomUser.objects.get(email=email)  # user Newly created Model
-        user.counter += 1  # Update Counter At every Call
-        user.save()  # Save the data
-        keygen = generateKey()
-        key = base64.b32encode(keygen.returnValue(email).encode())  # Key is generated
-        OTP = pyotp.HOTP(key)  # HOTP Model for OTP is created
-        # print(OTP.at(user.counter))
+        OTP=otp_from_email(email)
         # Using Multi-Threading send the OTP Using Messaging Services like Twilio or Fast2sms
         return  Response({"OTP": OTP.at(user.counter)})  # Just for demonstration
-
+@api_view(['POST'])
+@swagger_auto_schema(tags=['user'], operation_description='otp',request_body=VerifyOtpSerializer)
+def verify_otp(request):
+    email=request.data['email']
+    otp=request.data['otp']
+    try:
+        user=CustomUser.objects.get(email__iexact=email)
+        isvalid=verifyotp(otp,user.counter)
+        if isvalid:
+            return Response({
+                "status":true,
+                "data":"Email verified"
+            })
+        return Response({"error":"Otp invalid/expired"})
+    except:
+        return Response({"error":"Otp invalid/expired"})
 class getPhoneNumberRegistered(APIView): 
     # @staticmethod
     # @swagger_auto_schema(tags=['user'], operation_description='' )
@@ -221,19 +236,18 @@ class getPhoneNumberRegistered(APIView):
         keygen = generateKey()
         key = base64.b32encode(keygen.returnValue(email).encode())  # Key is generated
         OTP = pyotp.HOTP(key)
-        print(OTP.verify(request.data['at'],1234))
+
         try:
-            # otp=(request.data['otp'])
             user=CustomUser.objects.get(email__iexact=request.data["email"])
             if(OTP.verify(int(request.data['otp']),user.counter)):
                 user.emailVerified=True
                 user.save()
-                return Response({"success":"You are authorized"})
+                return Response({"success":"Email Verified"})
             else:
-                return JsonResponse({"error":"OTP is wrong"}, status=400)
+                return JsonResponse({"error":"OTP is wrong/expired"}, status=400)
         except Exception as e:
             print(str(e))
-            return JsonResponse({"error":"OTP is wrong"}, status=400)
+            return JsonResponse({"error":"OTP is wrong/expired"}, status=400)
      
 # class PhoneNumberOTP(APIView):
 #     def get(self, request, format=None):

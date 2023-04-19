@@ -2,6 +2,7 @@ from django.urls import include, path, re_path
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
+from rest_framework.urlpatterns import format_suffix_patterns
 # from drf_yasg.generators import OpenAPISchemaGenerator
 # class CustomSchemaGeneratorClass(OpenAPISchemaGenerator):
 #         def determine_path_prefix(self, request):
@@ -84,11 +85,32 @@ schema_view = get_schema_view(
 #    permission_classes=[permissions.AllowAny],
 # )
 
+# from drf_yasg.generators import OpenAPISchemaGenerator
+# class PublicAPISchemeGenerator(OpenAPISchemaGenerator):
+#     def get_schema(self, request=None, public=False):
+#         schema = super().get_schema(request, public)
+#         schema.base_path = 'hajir/'
+#         return schema
+
+# public_schema_view = get_schema_view(   openapi.Info(
+#       title="Hajir API",
+#       default_version='v1',
+#       description="Test description",
+     
+#       terms_of_service="https://www.google.com/policies/terms/",
+#       contact=openapi.Contact(email="contact@snippets.local"),
+#       license=openapi.License(name="BSD License"),
+#    ),
+#                                      urlconf='public_apis.urls',
+#                                      generator_class=PublicAPISchemeGenerator)
+
+
+
 from drf_yasg.generators import OpenAPISchemaGenerator
 class PublicAPISchemeGenerator(OpenAPISchemaGenerator):
     def get_schema(self, request=None, public=False):
         schema = super().get_schema(request, public)
-        schema.base_path = 'hajir/'
+        schema.base_path = '/hajir'
         return schema
 
 public_schema_view = get_schema_view(   openapi.Info(
@@ -100,16 +122,23 @@ public_schema_view = get_schema_view(   openapi.Info(
       contact=openapi.Contact(email="contact@snippets.local"),
       license=openapi.License(name="BSD License"),
    ),
-                                     urlconf='public_apis.urls',
+                                     urlconf='hajir.urls',
                                      generator_class=PublicAPISchemeGenerator)
 from . import views
 urlpatterns = [
      path("ip-addr/", views.get_ip_address, name="ip address"),
-
+   path("login/",views.login),
+   path("dashboard/",views.employee_dashboard),
+   path("throttle/",views.view),
+   # path("dashboard/",views.EmployeeDashboard.as_view()),
+   path("verify-otp/",views.verify_phone),
+   path('swagger/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),
     # re_path(r'^auth/', include('djoser.urls')),
-    # re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
-    # re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    # re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+   #  re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+   #  re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+   #  re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
    
    
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)
