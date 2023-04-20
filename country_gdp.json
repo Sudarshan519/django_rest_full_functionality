@@ -1,0 +1,1932 @@
+[
+    {
+        "name": "World",
+        "continent": "\u2014",
+        "estimate": "101,560,901",
+        "year": "2022",
+        "estimate_2": "96,513,077",
+        "year_2": "2021"
+    },
+    {
+        "name": "United States",
+        "continent": "Americas",
+        "estimate": "25,035,164",
+        "year": "2022",
+        "estimate_2": "22,996,100",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png"
+    },
+    {
+        "name": "China",
+        "continent": "Asia",
+        "estimate": "18,321,197",
+        "year": "[n 1]2022",
+        "estimate_2": "17,734,063",
+        "year_2": "[n 3]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+    },
+    {
+        "name": "Japan",
+        "continent": "Asia",
+        "estimate": "4,300,621",
+        "year": "2022",
+        "estimate_2": "4,937,422",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png"
+    },
+    {
+        "name": "Germany",
+        "continent": "Europe",
+        "estimate": "4,031,149",
+        "year": "2022",
+        "estimate_2": "4,223,116",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png"
+    },
+    {
+        "name": "India",
+        "continent": "Asia",
+        "estimate": "3,468,566",
+        "year": "2022",
+        "estimate_2": "3,173,398",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png"
+    },
+    {
+        "name": "United Kingdom",
+        "continent": "Europe",
+        "estimate": "3,198,470",
+        "year": "2022",
+        "estimate_2": "3,186,860",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png"
+    },
+    {
+        "name": "France",
+        "continent": "Europe",
+        "estimate": "2,778,090",
+        "year": "2022",
+        "estimate_2": "2,937,473",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png"
+    },
+    {
+        "name": "Canada",
+        "continent": "Americas",
+        "estimate": "2,200,352",
+        "year": "2022",
+        "estimate_2": "1,988,336",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-Flag_of_Canada_%28Pantone%29.svg.png"
+    },
+    {
+        "name": "Russia",
+        "continent": "Europe",
+        "estimate": "2,133,092",
+        "year": "2022",
+        "estimate_2": "1,775,800",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png"
+    },
+    {
+        "name": "Italy",
+        "continent": "Europe",
+        "estimate": "1,996,934",
+        "year": "2022",
+        "estimate_2": "2,107,703",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png"
+    },
+    {
+        "name": "Iran",
+        "continent": "Asia",
+        "estimate": "1,973,738",
+        "year": "[n 4]2022",
+        "estimate_2": "359,713",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png"
+    },
+    {
+        "name": "Brazil",
+        "continent": "Americas",
+        "estimate": "1,894,708",
+        "year": "2022",
+        "estimate_2": "1,608,981",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
+    },
+    {
+        "name": "South Korea",
+        "continent": "Asia",
+        "estimate": "1,734,207",
+        "year": "2022",
+        "estimate_2": "1,798,534",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-Flag_of_South_Korea.svg.png"
+    },
+    {
+        "name": "Australia",
+        "continent": "Oceania",
+        "estimate": "1,724,787",
+        "year": "2022",
+        "estimate_2": "1,542,660",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png"
+    },
+    {
+        "name": "Mexico",
+        "continent": "Americas",
+        "estimate": "1,424,533",
+        "year": "2022",
+        "estimate_2": "1,293,038",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/23px-Flag_of_Mexico.svg.png"
+    },
+    {
+        "name": "Spain",
+        "continent": "Europe",
+        "estimate": "1,389,927",
+        "year": "2022",
+        "estimate_2": "1,425,277",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png"
+    },
+    {
+        "name": "Indonesia",
+        "continent": "Asia",
+        "estimate": "1,289,429",
+        "year": "2022",
+        "estimate_2": "1,186,093",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/23px-Flag_of_Indonesia.svg.png"
+    },
+    {
+        "name": "Saudi Arabia",
+        "continent": "Asia",
+        "estimate": "1,010,588",
+        "year": "2022",
+        "estimate_2": "833,541",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/23px-Flag_of_Saudi_Arabia.svg.png"
+    },
+    {
+        "name": "Netherlands",
+        "continent": "Europe",
+        "estimate": "990,583",
+        "year": "2022",
+        "estimate_2": "1,018,007",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png"
+    },
+    {
+        "name": "Turkey",
+        "continent": "Asia",
+        "estimate": "853,487",
+        "year": "2022",
+        "estimate_2": "815,272",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png"
+    },
+    {
+        "name": "Taiwan",
+        "continent": "Asia",
+        "estimate": "828,659",
+        "year": "[n 5]2022",
+        "estimate_2": "\u2014",
+        "year_2": "669,324"
+    },
+    {
+        "name": "Switzerland",
+        "continent": "Europe",
+        "estimate": "807,418",
+        "year": "2022",
+        "estimate_2": "812,867",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/15px-Flag_of_Switzerland_%28Pantone%29.svg.png"
+    },
+    {
+        "name": "Poland",
+        "continent": "Europe",
+        "estimate": "716,305",
+        "year": "2022",
+        "estimate_2": "674,048",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png"
+    },
+    {
+        "name": "Argentina",
+        "continent": "Americas",
+        "estimate": "630,698",
+        "year": "2022",
+        "estimate_2": "491,493",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/23px-Flag_of_Argentina.svg.png"
+    },
+    {
+        "name": "Sweden",
+        "continent": "Europe",
+        "estimate": "603,922",
+        "year": "2022",
+        "estimate_2": "627,438",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png"
+    },
+    {
+        "name": "Belgium",
+        "continent": "Europe",
+        "estimate": "589,491",
+        "year": "2022",
+        "estimate_2": "599,879",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png"
+    },
+    {
+        "name": "Thailand",
+        "continent": "Asia",
+        "estimate": "534,758",
+        "year": "2022",
+        "estimate_2": "505,982",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/23px-Flag_of_Thailand.svg.png"
+    },
+    {
+        "name": "Israel",
+        "continent": "Asia",
+        "estimate": "527,179",
+        "year": "2022",
+        "estimate_2": "481,591",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png"
+    },
+    {
+        "name": "Ireland",
+        "continent": "Europe",
+        "estimate": "519,776",
+        "year": "2022",
+        "estimate_2": "498,560",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png"
+    },
+    {
+        "name": "Norway",
+        "continent": "Europe",
+        "estimate": "504,703",
+        "year": "2022",
+        "estimate_2": "482,437",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png"
+    },
+    {
+        "name": "Nigeria",
+        "continent": "Africa",
+        "estimate": "504,203",
+        "year": "2022",
+        "estimate_2": "440,777",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/23px-Flag_of_Nigeria.svg.png"
+    },
+    {
+        "name": "United Arab Emirates",
+        "continent": "Asia",
+        "estimate": "503,913",
+        "year": "2022",
+        "estimate_2": "358,869",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/23px-Flag_of_the_United_Arab_Emirates.svg.png"
+    },
+    {
+        "name": "Egypt",
+        "continent": "Africa",
+        "estimate": "469,094",
+        "year": "2022",
+        "estimate_2": "404,143",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/23px-Flag_of_Egypt.svg.png"
+    },
+    {
+        "name": "Austria",
+        "continent": "Europe",
+        "estimate": "468,046",
+        "year": "2022",
+        "estimate_2": "477,083",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png"
+    },
+    {
+        "name": "Bangladesh",
+        "continent": "Asia",
+        "estimate": "460,751",
+        "year": "2022",
+        "estimate_2": "416,265",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/23px-Flag_of_Bangladesh.svg.png"
+    },
+    {
+        "name": "Malaysia",
+        "continent": "Asia",
+        "estimate": "434,059",
+        "year": "2022",
+        "estimate_2": "372,701",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/23px-Flag_of_Malaysia.svg.png"
+    },
+    {
+        "name": "Singapore",
+        "continent": "Asia",
+        "estimate": "423,632",
+        "year": "2022",
+        "estimate_2": "396,987",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/23px-Flag_of_Singapore.svg.png"
+    },
+    {
+        "name": "Vietnam",
+        "continent": "Asia",
+        "estimate": "413,808",
+        "year": "2022",
+        "estimate_2": "362,638",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/23px-Flag_of_Vietnam.svg.png"
+    },
+    {
+        "name": "South Africa",
+        "continent": "Africa",
+        "estimate": "411,480",
+        "year": "2022",
+        "estimate_2": "419,946",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/23px-Flag_of_South_Africa.svg.png"
+    },
+    {
+        "name": "Philippines",
+        "continent": "Asia",
+        "estimate": "401,662",
+        "year": "2022",
+        "estimate_2": "394,086",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/23px-Flag_of_the_Philippines.svg.png"
+    },
+    {
+        "name": "Denmark",
+        "continent": "Europe",
+        "estimate": "386,724",
+        "year": "2022",
+        "estimate_2": "397,104",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png"
+    },
+    {
+        "name": "Pakistan",
+        "continent": "Asia",
+        "estimate": "376,493",
+        "year": "2022",
+        "estimate_2": "346,343",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/23px-Flag_of_Pakistan.svg.png"
+    },
+    {
+        "name": "Hong Kong",
+        "continent": "Asia",
+        "estimate": "368,373",
+        "year": "[n 6]2022",
+        "estimate_2": "368,139",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/23px-Flag_of_Hong_Kong.svg.png"
+    },
+    {
+        "name": "Colombia",
+        "continent": "Americas",
+        "estimate": "342,919",
+        "year": "2022",
+        "estimate_2": "314,323",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/23px-Flag_of_Colombia.svg.png"
+    },
+    {
+        "name": "Chile",
+        "continent": "Americas",
+        "estimate": "310,866",
+        "year": "2022",
+        "estimate_2": "317,059",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/23px-Flag_of_Chile.svg.png"
+    },
+    {
+        "name": "Romania",
+        "continent": "Europe",
+        "estimate": "299,885",
+        "year": "2022",
+        "estimate_2": "284,088",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png"
+    },
+    {
+        "name": "Czech Republic",
+        "continent": "Europe",
+        "estimate": "296,238",
+        "year": "2022",
+        "estimate_2": "282,341",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png"
+    },
+    {
+        "name": "Iraq",
+        "continent": "Asia",
+        "estimate": "282,876",
+        "year": "2022",
+        "estimate_2": "207,889",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/23px-Flag_of_Iraq.svg.png"
+    },
+    {
+        "name": "Finland",
+        "continent": "Europe",
+        "estimate": "281,411",
+        "year": "2022",
+        "estimate_2": "299,155",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png"
+    },
+    {
+        "name": "Portugal",
+        "continent": "Europe",
+        "estimate": "255,854",
+        "year": "2022",
+        "estimate_2": "249,887",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png"
+    },
+    {
+        "name": "New Zealand",
+        "continent": "Oceania",
+        "estimate": "242,700",
+        "year": "2022",
+        "estimate_2": "249,992",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/23px-Flag_of_New_Zealand.svg.png"
+    },
+    {
+        "name": "Peru",
+        "continent": "Americas",
+        "estimate": "239,333",
+        "year": "2022",
+        "estimate_2": "223,250",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/23px-Flag_of_Peru.svg.png"
+    },
+    {
+        "name": "Kazakhstan",
+        "continent": "Asia",
+        "estimate": "224,338",
+        "year": "2022",
+        "estimate_2": "190,814",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/23px-Flag_of_Kazakhstan.svg.png"
+    },
+    {
+        "name": "Greece",
+        "continent": "Europe",
+        "estimate": "222,008",
+        "year": "2022",
+        "estimate_2": "216,241",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png"
+    },
+    {
+        "name": "Qatar",
+        "continent": "Asia",
+        "estimate": "221,369",
+        "year": "2022",
+        "estimate_2": "179,571",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/23px-Flag_of_Qatar.svg.png"
+    },
+    {
+        "name": "Ukraine",
+        "continent": "Europe",
+        "estimate": "199,719",
+        "year": "[n 7]2021",
+        "estimate_2": "200,086",
+        "year_2": "[n 7]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png"
+    },
+    {
+        "name": "Algeria",
+        "continent": "Africa",
+        "estimate": "187,155",
+        "year": "2022",
+        "estimate_2": "167,983",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/23px-Flag_of_Algeria.svg.png"
+    },
+    {
+        "name": "Hungary",
+        "continent": "Europe",
+        "estimate": "184,651",
+        "year": "2022",
+        "estimate_2": "182,281",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png"
+    },
+    {
+        "name": "Kuwait",
+        "continent": "Asia",
+        "estimate": "183,568",
+        "year": "2022",
+        "estimate_2": "105,960",
+        "year_2": "2020",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/23px-Flag_of_Kuwait.svg.png"
+    },
+    {
+        "name": "Morocco",
+        "continent": "Africa",
+        "estimate": "142,874",
+        "year": "2022",
+        "estimate_2": "132,725",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/23px-Flag_of_Morocco.svg.png"
+    },
+    {
+        "name": "Angola",
+        "continent": "Africa",
+        "estimate": "124,794",
+        "year": "2022",
+        "estimate_2": "72,547",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/23px-Flag_of_Angola.svg.png"
+    },
+    {
+        "name": "Puerto Rico",
+        "continent": "Americas",
+        "estimate": "118,677",
+        "year": "2022",
+        "estimate_2": "106,526",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/23px-Flag_of_Puerto_Rico.svg.png"
+    },
+    {
+        "name": "Ecuador",
+        "continent": "Americas",
+        "estimate": "115,469",
+        "year": "2022",
+        "estimate_2": "106,166",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/23px-Flag_of_Ecuador.svg.png"
+    },
+    {
+        "name": "Kenya",
+        "continent": "Africa",
+        "estimate": "114,858",
+        "year": "2022",
+        "estimate_2": "110,347",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/23px-Flag_of_Kenya.svg.png"
+    },
+    {
+        "name": "Slovakia",
+        "continent": "Europe",
+        "estimate": "112,418",
+        "year": "2022",
+        "estimate_2": "114,871",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png"
+    },
+    {
+        "name": "Dominican Republic",
+        "continent": "Americas",
+        "estimate": "112,417",
+        "year": "2022",
+        "estimate_2": "94,244",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/23px-Flag_of_the_Dominican_Republic.svg.png"
+    },
+    {
+        "name": "Ethiopia",
+        "continent": "Africa",
+        "estimate": "111,181",
+        "year": "2022",
+        "estimate_2": "111,271",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/23px-Flag_of_Ethiopia.svg.png"
+    },
+    {
+        "name": "Oman",
+        "continent": "Asia",
+        "estimate": "108,969",
+        "year": "2022",
+        "estimate_2": "85,869",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/23px-Flag_of_Oman.svg.png"
+    },
+    {
+        "name": "Cuba",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "107,352",
+        "estimate_2": "2020",
+        "year_2": "107,352"
+    },
+    {
+        "name": "Guatemala",
+        "continent": "Americas",
+        "estimate": "91,318",
+        "year": "2022",
+        "estimate_2": "85,986",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/23px-Flag_of_Guatemala.svg.png"
+    },
+    {
+        "name": "Bulgaria",
+        "continent": "Europe",
+        "estimate": "85,008",
+        "year": "2022",
+        "estimate_2": "80,271",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png"
+    },
+    {
+        "name": "Luxembourg",
+        "continent": "Europe",
+        "estimate": "82,154",
+        "year": "2022",
+        "estimate_2": "86,711",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/23px-Flag_of_Luxembourg.svg.png"
+    },
+    {
+        "name": "Venezuela",
+        "continent": "Americas",
+        "estimate": "82,145",
+        "year": "2022",
+        "estimate_2": "482,359",
+        "year_2": "2014",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/23px-Flag_of_Venezuela.svg.png"
+    },
+    {
+        "name": "Belarus",
+        "continent": "Europe",
+        "estimate": "79,704",
+        "year": "2022",
+        "estimate_2": "68,219",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/23px-Flag_of_Belarus.svg.png"
+    },
+    {
+        "name": "Uzbekistan",
+        "continent": "Asia",
+        "estimate": "79,117",
+        "year": "2022",
+        "estimate_2": "69,239",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/23px-Flag_of_Uzbekistan.svg.png"
+    },
+    {
+        "name": "Tanzania",
+        "continent": "Africa",
+        "estimate": "76,582",
+        "year": "2022",
+        "estimate_2": "67,775",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/23px-Flag_of_Tanzania.svg.png"
+    },
+    {
+        "name": "Ghana",
+        "continent": "Africa",
+        "estimate": "75,996",
+        "year": "2022",
+        "estimate_2": "77,594",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/23px-Flag_of_Ghana.svg.png"
+    },
+    {
+        "name": "Turkmenistan",
+        "continent": "Asia",
+        "estimate": "74,439",
+        "year": "2022",
+        "estimate_2": "45,231",
+        "year_2": "2019",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/23px-Flag_of_Turkmenistan.svg.png"
+    },
+    {
+        "name": "Sri Lanka",
+        "continent": "Asia",
+        "estimate": "73,739",
+        "year": "2022",
+        "estimate_2": "84,519",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/23px-Flag_of_Sri_Lanka.svg.png"
+    },
+    {
+        "name": "Uruguay",
+        "continent": "Americas",
+        "estimate": "71,161",
+        "year": "2022",
+        "estimate_2": "59,320",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/23px-Flag_of_Uruguay.svg.png"
+    },
+    {
+        "name": "Panama",
+        "continent": "Americas",
+        "estimate": "71,085",
+        "year": "2022",
+        "estimate_2": "63,605",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/23px-Flag_of_Panama.svg.png"
+    },
+    {
+        "name": "Azerbaijan",
+        "continent": "Asia",
+        "estimate": "70,066",
+        "year": "2022",
+        "estimate_2": "54,622",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png"
+    },
+    {
+        "name": "Croatia",
+        "continent": "Europe",
+        "estimate": "69,380",
+        "year": "2022",
+        "estimate_2": "67,838",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png"
+    },
+    {
+        "name": "Ivory Coast",
+        "continent": "Africa",
+        "estimate": "68,630",
+        "year": "2022",
+        "estimate_2": "69,765",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/23px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png"
+    },
+    {
+        "name": "Costa Rica",
+        "continent": "Americas",
+        "estimate": "68,489",
+        "year": "2022",
+        "estimate_2": "64,282",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/23px-Flag_of_Costa_Rica.svg.png"
+    },
+    {
+        "name": "Lithuania",
+        "continent": "Europe",
+        "estimate": "68,031",
+        "year": "2022",
+        "estimate_2": "65,504",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/23px-Flag_of_Lithuania.svg.png"
+    },
+    {
+        "name": "DR Congo",
+        "continent": "Africa",
+        "estimate": "63,909",
+        "year": "2022",
+        "estimate_2": "53,959",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
+    },
+    {
+        "name": "Serbia",
+        "continent": "Europe",
+        "estimate": "62,721",
+        "year": "2022",
+        "estimate_2": "63,068",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/23px-Flag_of_Serbia.svg.png"
+    },
+    {
+        "name": "Slovenia",
+        "continent": "Europe",
+        "estimate": "62,191",
+        "year": "2022",
+        "estimate_2": "61,526",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png"
+    },
+    {
+        "name": "Myanmar",
+        "continent": "Asia",
+        "estimate": "59,530",
+        "year": "2022",
+        "estimate_2": "65,068",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/23px-Flag_of_Myanmar.svg.png"
+    },
+    {
+        "name": "Uganda",
+        "continent": "Africa",
+        "estimate": "48,352",
+        "year": "2022",
+        "estimate_2": "40,435",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/23px-Flag_of_Uganda.svg.png"
+    },
+    {
+        "name": "Jordan",
+        "continent": "Asia",
+        "estimate": "48,066",
+        "year": "2022",
+        "estimate_2": "45,244",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/23px-Flag_of_Jordan.svg.png"
+    },
+    {
+        "name": "Tunisia",
+        "continent": "Africa",
+        "estimate": "46,282",
+        "year": "2022",
+        "estimate_2": "46,840",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/23px-Flag_of_Tunisia.svg.png"
+    },
+    {
+        "name": "Cameroon",
+        "continent": "Africa",
+        "estimate": "44,212",
+        "year": "2022",
+        "estimate_2": "45,239",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/23px-Flag_of_Cameroon.svg.png"
+    },
+    {
+        "name": "Bahrain",
+        "continent": "Asia",
+        "estimate": "43,544",
+        "year": "2022",
+        "estimate_2": "38,869",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/23px-Flag_of_Bahrain.svg.png"
+    },
+    {
+        "name": "Bolivia",
+        "continent": "Americas",
+        "estimate": "43,431",
+        "year": "2022",
+        "estimate_2": "40,408",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/22px-Bandera_de_Bolivia_%28Estado%29.svg.png"
+    },
+    {
+        "name": "Sudan",
+        "continent": "Africa",
+        "estimate": "42,762",
+        "year": "2022",
+        "estimate_2": "34,326",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/23px-Flag_of_Sudan.svg.png"
+    },
+    {
+        "name": "Paraguay",
+        "continent": "Americas",
+        "estimate": "41,855",
+        "year": "2022",
+        "estimate_2": "38,987",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/23px-Flag_of_Paraguay.svg.png"
+    },
+    {
+        "name": "Libya",
+        "continent": "Africa",
+        "estimate": "40,836",
+        "year": "2022",
+        "estimate_2": "41,880",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/23px-Flag_of_Libya.svg.png"
+    },
+    {
+        "name": "Latvia",
+        "continent": "Europe",
+        "estimate": "40,588",
+        "year": "2022",
+        "estimate_2": "38,873",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png"
+    },
+    {
+        "name": "Estonia",
+        "continent": "Europe",
+        "estimate": "39,054",
+        "year": "2022",
+        "estimate_2": "36,263",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png"
+    },
+    {
+        "name": "Nepal",
+        "continent": "Asia",
+        "estimate": "39,028",
+        "year": "2022",
+        "estimate_2": "36,289",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/12px-Flag_of_Nepal.svg.png"
+    },
+    {
+        "name": "Zimbabwe",
+        "continent": "Africa",
+        "estimate": "38,280",
+        "year": "2022",
+        "estimate_2": "26,218",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/23px-Flag_of_Zimbabwe.svg.png"
+    },
+    {
+        "name": "El Salvador",
+        "continent": "Americas",
+        "estimate": "31,989",
+        "year": "2022",
+        "estimate_2": "28,737",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/23px-Flag_of_El_Salvador.svg.png"
+    },
+    {
+        "name": "Papua New Guinea",
+        "continent": "Oceania",
+        "estimate": "31,362",
+        "year": "2022",
+        "estimate_2": "26,594",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/20px-Flag_of_Papua_New_Guinea.svg.png"
+    },
+    {
+        "name": "Honduras",
+        "continent": "Americas",
+        "estimate": "30,568",
+        "year": "2022",
+        "estimate_2": "28,489",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/23px-Flag_of_Honduras.svg.png"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "continent": "Americas",
+        "estimate": "29,337",
+        "year": "2022",
+        "estimate_2": "21,392",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/23px-Flag_of_Trinidad_and_Tobago.svg.png"
+    },
+    {
+        "name": "Cambodia",
+        "continent": "Asia",
+        "estimate": "28,330",
+        "year": "2022",
+        "estimate_2": "26,961",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/23px-Flag_of_Cambodia.svg.png"
+    },
+    {
+        "name": "Iceland",
+        "continent": "Europe",
+        "estimate": "27,702",
+        "year": "2022",
+        "estimate_2": "25,459",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png"
+    },
+    {
+        "name": "Yemen",
+        "continent": "Asia",
+        "estimate": "27,594",
+        "year": "2022",
+        "estimate_2": "21,062",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/23px-Flag_of_Yemen.svg.png"
+    },
+    {
+        "name": "Senegal",
+        "continent": "Africa",
+        "estimate": "27,542",
+        "year": "2022",
+        "estimate_2": "27,625",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/23px-Flag_of_Senegal.svg.png"
+    },
+    {
+        "name": "Zambia",
+        "continent": "Africa",
+        "estimate": "27,025",
+        "year": "2022",
+        "estimate_2": "21,203",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/23px-Flag_of_Zambia.svg.png"
+    },
+    {
+        "name": "Cyprus",
+        "continent": "Asia",
+        "estimate": "26,705",
+        "year": "[n 10]2022",
+        "estimate_2": "27,719",
+        "year_2": "[n 10]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/23px-Flag_of_Cyprus.svg.png"
+    },
+    {
+        "name": "Georgia",
+        "continent": "Europe",
+        "estimate": "25,172",
+        "year": "[n 11]2022",
+        "estimate_2": "18,700",
+        "year_2": "[n 11]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/23px-Flag_of_Georgia.svg.png"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "continent": "Europe",
+        "estimate": "23,681",
+        "year": "2022",
+        "estimate_2": "22,572",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/23px-Flag_of_Bosnia_and_Herzegovina.svg.png"
+    },
+    {
+        "name": "Macau",
+        "continent": "Asia",
+        "estimate": "23,420",
+        "year": "[n 12]2022",
+        "estimate_2": "29,905",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/23px-Flag_of_Macau.svg.png"
+    },
+    {
+        "name": "Gabon",
+        "continent": "Africa",
+        "estimate": "22,221",
+        "year": "2022",
+        "estimate_2": "18,269",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png"
+    },
+    {
+        "name": "Haiti",
+        "continent": "Americas",
+        "estimate": "20,182",
+        "year": "2022",
+        "estimate_2": "20,944",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/23px-Flag_of_Haiti.svg.png"
+    },
+    {
+        "name": "Afghanistan",
+        "continent": "Asia",
+        "estimate": "20,136",
+        "year": "2020",
+        "estimate_2": "14,787",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/23px-Flag_of_the_Taliban.svg.png"
+    },
+    {
+        "name": "Guinea",
+        "continent": "Africa",
+        "estimate": "19,745",
+        "year": "2022",
+        "estimate_2": "15,851",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/23px-Flag_of_Guinea.svg.png"
+    },
+    {
+        "name": "Palestine",
+        "continent": "Asia",
+        "estimate": "19,698",
+        "year": "[n 13]2022",
+        "estimate_2": "18,037",
+        "year_2": "[n 13]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/23px-Flag_of_Palestine.svg.png"
+    },
+    {
+        "name": "Brunei",
+        "continent": "Asia",
+        "estimate": "18,464",
+        "year": "2022",
+        "estimate_2": "14,007",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/23px-Flag_of_Brunei.svg.png"
+    },
+    {
+        "name": "Mali",
+        "continent": "Africa",
+        "estimate": "18,434",
+        "year": "2022",
+        "estimate_2": "19,144",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/23px-Flag_of_Mali.svg.png"
+    },
+    {
+        "name": "Burkina Faso",
+        "continent": "Africa",
+        "estimate": "18,268",
+        "year": "2022",
+        "estimate_2": "19,738",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/23px-Flag_of_Burkina_Faso.svg.png"
+    },
+    {
+        "name": "Albania",
+        "continent": "Europe",
+        "estimate": "18,256",
+        "year": "2022",
+        "estimate_2": "18,260",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png"
+    },
+    {
+        "name": "Lebanon",
+        "continent": "Asia",
+        "estimate": "24,494",
+        "year": "2020",
+        "estimate_2": "18,077",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/23px-Flag_of_Lebanon.svg.png"
+    },
+    {
+        "name": "Botswana",
+        "continent": "Africa",
+        "estimate": "18,005",
+        "year": "2022",
+        "estimate_2": "17,614",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/23px-Flag_of_Botswana.svg.png"
+    },
+    {
+        "name": "Mozambique",
+        "continent": "Africa",
+        "estimate": "17,873",
+        "year": "2022",
+        "estimate_2": "16,096",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/23px-Flag_of_Mozambique.svg.png"
+    },
+    {
+        "name": "Armenia",
+        "continent": "Asia",
+        "estimate": "17,693",
+        "year": "2022",
+        "estimate_2": "13,861",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png"
+    },
+    {
+        "name": "Benin",
+        "continent": "Africa",
+        "estimate": "17,547",
+        "year": "2022",
+        "estimate_2": "17,786",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/23px-Flag_of_Benin.svg.png"
+    },
+    {
+        "name": "Malta",
+        "continent": "Europe",
+        "estimate": "17,156",
+        "year": "2022",
+        "estimate_2": "17,190",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/23px-Flag_of_Malta.svg.png"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "continent": "Africa",
+        "estimate": "16,877",
+        "year": "2022",
+        "estimate_2": "12,269",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/23px-Flag_of_Equatorial_Guinea.svg.png"
+    },
+    {
+        "name": "Laos",
+        "continent": "Asia",
+        "estimate": "16,250",
+        "year": "2022",
+        "estimate_2": "18,827",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/23px-Flag_of_Laos.svg.png"
+    },
+    {
+        "name": "Jamaica",
+        "continent": "Americas",
+        "estimate": "16,104",
+        "year": "2022",
+        "estimate_2": "13,638",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/23px-Flag_of_Jamaica.svg.png"
+    },
+    {
+        "name": "North Korea",
+        "continent": "Asia",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "15,847",
+        "year_2": "2020"
+    },
+    {
+        "name": "Mongolia",
+        "continent": "Asia",
+        "estimate": "15,720",
+        "year": "2022",
+        "estimate_2": "15,098",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/23px-Flag_of_Mongolia.svg.png"
+    },
+    {
+        "name": "Nicaragua",
+        "continent": "Americas",
+        "estimate": "15,695",
+        "year": "2022",
+        "estimate_2": "14,013",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/23px-Flag_of_Nicaragua.svg.png"
+    },
+    {
+        "name": "Syria",
+        "continent": "Asia",
+        "estimate": "\u2014",
+        "year": "11,080",
+        "estimate_2": "2020",
+        "year_2": "15,572"
+    },
+    {
+        "name": "Madagascar",
+        "continent": "Africa",
+        "estimate": "15,106",
+        "year": "2022",
+        "estimate_2": "14,637",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/23px-Flag_of_Madagascar.svg.png"
+    },
+    {
+        "name": "Guyana",
+        "continent": "Americas",
+        "estimate": "14,839",
+        "year": "2022",
+        "estimate_2": "7,409",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/23px-Flag_of_Guyana.svg.png"
+    },
+    {
+        "name": "Niger",
+        "continent": "Africa",
+        "estimate": "14,639",
+        "year": "2022",
+        "estimate_2": "14,951",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/18px-Flag_of_Niger.svg.png"
+    },
+    {
+        "name": "Congo",
+        "continent": "Africa",
+        "estimate": "14,486",
+        "year": "2022",
+        "estimate_2": "12,524",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/23px-Flag_of_the_Republic_of_the_Congo.svg.png"
+    },
+    {
+        "name": "North Macedonia",
+        "continent": "Europe",
+        "estimate": "14,101",
+        "year": "2022",
+        "estimate_2": "13,879",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/23px-Flag_of_North_Macedonia.svg.png"
+    },
+    {
+        "name": "Moldova",
+        "continent": "Europe",
+        "estimate": "14,048",
+        "year": "[n 15]2022",
+        "estimate_2": "13,679",
+        "year_2": "[n 15]2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/23px-Flag_of_Moldova.svg.png"
+    },
+    {
+        "name": "Chad",
+        "continent": "Africa",
+        "estimate": "12,945",
+        "year": "2022",
+        "estimate_2": "11,780",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/23px-Flag_of_Chad.svg.png"
+    },
+    {
+        "name": "Bahamas",
+        "continent": "Americas",
+        "estimate": "12,693",
+        "year": "2022",
+        "estimate_2": "11,209",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/23px-Flag_of_the_Bahamas.svg.png"
+    },
+    {
+        "name": "Namibia",
+        "continent": "Africa",
+        "estimate": "12,488",
+        "year": "2022",
+        "estimate_2": "12,236",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/23px-Flag_of_Namibia.svg.png"
+    },
+    {
+        "name": "Rwanda",
+        "continent": "Africa",
+        "estimate": "12,098",
+        "year": "2022",
+        "estimate_2": "11,070",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/23px-Flag_of_Rwanda.svg.png"
+    },
+    {
+        "name": "Malawi",
+        "continent": "Africa",
+        "estimate": "11,554",
+        "year": "2022",
+        "estimate_2": "12,627",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/23px-Flag_of_Malawi.svg.png"
+    },
+    {
+        "name": "Mauritius",
+        "continent": "Africa",
+        "estimate": "11,497",
+        "year": "2022",
+        "estimate_2": "11,157",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/23px-Flag_of_Mauritius.svg.png"
+    },
+    {
+        "name": "Mauritania",
+        "continent": "Africa",
+        "estimate": "10,091",
+        "year": "2022",
+        "estimate_2": "8,228",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/23px-Flag_of_Mauritania.svg.png"
+    },
+    {
+        "name": "Tajikistan",
+        "continent": "Asia",
+        "estimate": "9,983",
+        "year": "2022",
+        "estimate_2": "8,746",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/23px-Flag_of_Tajikistan.svg.png"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "continent": "Asia",
+        "estimate": "9,750",
+        "year": "2022",
+        "estimate_2": "8,543",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/23px-Flag_of_Kyrgyzstan.svg.png"
+    },
+    {
+        "name": "New Caledonia",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "10,071",
+        "estimate_2": "2021",
+        "year_2": "9,709"
+    },
+    {
+        "name": "Kosovo",
+        "continent": "Europe",
+        "estimate": "9,242",
+        "year": "2022",
+        "estimate_2": "9,007",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/21px-Flag_of_Kosovo.svg.png"
+    },
+    {
+        "name": "Somalia",
+        "continent": "Africa",
+        "estimate": "8,416",
+        "year": "2022",
+        "estimate_2": "7,293",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/23px-Flag_of_Somalia.svg.png"
+    },
+    {
+        "name": "Togo",
+        "continent": "Africa",
+        "estimate": "8,359",
+        "year": "2022",
+        "estimate_2": "8,413",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/23px-Flag_of_Togo.svg.png"
+    },
+    {
+        "name": "Bermuda",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "7,081",
+        "estimate_2": "2021",
+        "year_2": "7,719"
+    },
+    {
+        "name": "Liechtenstein",
+        "continent": "Europe",
+        "estimate": "\u2014",
+        "year": "6,114",
+        "estimate_2": "2020",
+        "year_2": "6,872"
+    },
+    {
+        "name": "Monaco",
+        "continent": "Europe",
+        "estimate": "\u2014",
+        "year": "8,596",
+        "estimate_2": "2021",
+        "year_2": "6,816"
+    },
+    {
+        "name": "Cayman Islands",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "5,898",
+        "estimate_2": "2021",
+        "year_2": "6,256"
+    },
+    {
+        "name": "Montenegro",
+        "continent": "Europe",
+        "estimate": "6,127",
+        "year": "2022",
+        "estimate_2": "5,809",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/23px-Flag_of_Montenegro.svg.png"
+    },
+    {
+        "name": "Maldives",
+        "continent": "Asia",
+        "estimate": "5,900",
+        "year": "2022",
+        "estimate_2": "4,890",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/23px-Flag_of_Maldives.svg.png"
+    },
+    {
+        "name": "Guam",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "6,123",
+        "estimate_2": "2021",
+        "year_2": "\u2014"
+    },
+    {
+        "name": "Barbados",
+        "continent": "Americas",
+        "estimate": "5,788",
+        "year": "2022",
+        "estimate_2": "4,901",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/23px-Flag_of_Barbados.svg.png"
+    },
+    {
+        "name": "French Polynesia",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "6,055",
+        "estimate_2": "2021",
+        "year_2": "5,817"
+    },
+    {
+        "name": "Fiji",
+        "continent": "Oceania",
+        "estimate": "4,859",
+        "year": "2022",
+        "estimate_2": "4,592",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/23px-Flag_of_Fiji.svg.png"
+    },
+    {
+        "name": "South Sudan",
+        "continent": "Africa",
+        "estimate": "4,784",
+        "year": "2022",
+        "estimate_2": "11,998",
+        "year_2": "2015",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/23px-Flag_of_South_Sudan.svg.png"
+    },
+    {
+        "name": "Eswatini",
+        "continent": "Africa",
+        "estimate": "4,669",
+        "year": "2022",
+        "estimate_2": "4,941",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/23px-Flag_of_Eswatini.svg.png"
+    },
+    {
+        "name": "Sierra Leone",
+        "continent": "Africa",
+        "estimate": "4,101",
+        "year": "2022",
+        "estimate_2": "4,200",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/23px-Flag_of_Sierra_Leone.svg.png"
+    },
+    {
+        "name": "Liberia",
+        "continent": "Africa",
+        "estimate": "3,900",
+        "year": "2022",
+        "estimate_2": "3,487",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/23px-Flag_of_Liberia.svg.png"
+    },
+    {
+        "name": "Djibouti",
+        "continent": "Africa",
+        "estimate": "3,725",
+        "year": "2022",
+        "estimate_2": "3,371",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/23px-Flag_of_Djibouti.svg.png"
+    },
+    {
+        "name": "Burundi",
+        "continent": "Africa",
+        "estimate": "3,686",
+        "year": "2022",
+        "estimate_2": "2,902",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/23px-Flag_of_Burundi.svg.png"
+    },
+    {
+        "name": "Aruba",
+        "continent": "Americas",
+        "estimate": "3,499",
+        "year": "2022",
+        "estimate_2": "3,126",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/23px-Flag_of_Aruba.svg.png"
+    },
+    {
+        "name": "Andorra",
+        "continent": "Europe",
+        "estimate": "3,302",
+        "year": "2022",
+        "estimate_2": "3,330",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/22px-Flag_of_Andorra.svg.png"
+    },
+    {
+        "name": "Greenland",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "3,076",
+        "estimate_2": "2020",
+        "year_2": "3,130"
+    },
+    {
+        "name": "Suriname",
+        "continent": "Americas",
+        "estimate": "3,011",
+        "year": "2022",
+        "estimate_2": "2,862",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/23px-Flag_of_Suriname.svg.png"
+    },
+    {
+        "name": "Bhutan",
+        "continent": "Asia",
+        "estimate": "2,707",
+        "year": "2022",
+        "estimate_2": "2,540",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/23px-Flag_of_Bhutan.svg.png"
+    },
+    {
+        "name": "Belize",
+        "continent": "Americas",
+        "estimate": "2,676",
+        "year": "2022",
+        "estimate_2": "1,790",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/23px-Flag_of_Belize.svg.png"
+    },
+    {
+        "name": "Lesotho",
+        "continent": "Africa",
+        "estimate": "2,507",
+        "year": "2022",
+        "estimate_2": "2,519",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/23px-Flag_of_Lesotho.svg.png"
+    },
+    {
+        "name": "Cura\u00e7ao",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "2,700",
+        "estimate_2": "2021",
+        "year_2": "2,596"
+    },
+    {
+        "name": "Central African Republic",
+        "continent": "Africa",
+        "estimate": "2,488",
+        "year": "2022",
+        "estimate_2": "2,517",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/23px-Flag_of_the_Central_African_Republic.svg.png"
+    },
+    {
+        "name": "East Timor",
+        "continent": "Asia",
+        "estimate": "2,455",
+        "year": "2022",
+        "estimate_2": "1,959",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/23px-Flag_of_East_Timor.svg.png"
+    },
+    {
+        "name": "Eritrea",
+        "continent": "Africa",
+        "estimate": "2,369",
+        "year": "2022",
+        "estimate_2": "2,065",
+        "year_2": "2011",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/23px-Flag_of_Eritrea.svg.png"
+    },
+    {
+        "name": "Gambia",
+        "continent": "Africa",
+        "estimate": "2,172",
+        "year": "2022",
+        "estimate_2": "2,078",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/23px-Flag_of_The_Gambia.svg.png"
+    },
+    {
+        "name": "Cape Verde",
+        "continent": "Africa",
+        "estimate": "2,053",
+        "year": "2022",
+        "estimate_2": "1,936",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/23px-Flag_of_Cape_Verde.svg.png"
+    },
+    {
+        "name": "Seychelles",
+        "continent": "Africa",
+        "estimate": "2,005",
+        "year": "2022",
+        "estimate_2": "1,320",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/23px-Flag_of_Seychelles.svg.png"
+    },
+    {
+        "name": "Saint Lucia",
+        "continent": "Americas",
+        "estimate": "1,972",
+        "year": "2022",
+        "estimate_2": "1,765",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/23px-Flag_of_Saint_Lucia.svg.png"
+    },
+    {
+        "name": "Zanzibar",
+        "continent": "Africa",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "1,724",
+        "year_2": "2020"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "continent": "Americas",
+        "estimate": "1,692",
+        "year": "2022",
+        "estimate_2": "1,471",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/23px-Flag_of_Antigua_and_Barbuda.svg.png"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "continent": "Africa",
+        "estimate": "1,624",
+        "year": "2022",
+        "estimate_2": "1,639",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/23px-Flag_of_Guinea-Bissau.svg.png"
+    },
+    {
+        "name": "San Marino",
+        "continent": "Europe",
+        "estimate": "1,623",
+        "year": "2022",
+        "estimate_2": "1,545",
+        "year_2": "2020",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/20px-Flag_of_San_Marino.svg.png"
+    },
+    {
+        "name": "Solomon Islands",
+        "continent": "Oceania",
+        "estimate": "1,601",
+        "year": "2022",
+        "estimate_2": "1,645",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/23px-Flag_of_the_Solomon_Islands.svg.png"
+    },
+    {
+        "name": "British Virgin Islands",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "1,492",
+        "year_2": "2020"
+    },
+    {
+        "name": "Comoros",
+        "continent": "Africa",
+        "estimate": "1,242",
+        "year": "2022",
+        "estimate_2": "1,328",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/23px-Flag_of_the_Comoros.svg.png"
+    },
+    {
+        "name": "Grenada",
+        "continent": "Americas",
+        "estimate": "1,192",
+        "year": "2022",
+        "estimate_2": "1,122",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/23px-Flag_of_Grenada.svg.png"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "1,182",
+        "estimate_2": "2019",
+        "year_2": "\u2014"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "continent": "Americas",
+        "estimate": "1,115",
+        "year": "2022",
+        "estimate_2": "976",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/23px-Flag_of_Saint_Kitts_and_Nevis.svg.png"
+    },
+    {
+        "name": "Vanuatu",
+        "continent": "Oceania",
+        "estimate": "984",
+        "year": "2022",
+        "estimate_2": "984",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/23px-Flag_of_Vanuatu.svg.png"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "continent": "Americas",
+        "estimate": "948",
+        "year": "2022",
+        "estimate_2": "890",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/23px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "943",
+        "estimate_2": "2021",
+        "year_2": "925"
+    },
+    {
+        "name": "Sint Maarten",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "1,186",
+        "estimate_2": "2018",
+        "year_2": "857"
+    },
+    {
+        "name": "Samoa",
+        "continent": "Oceania",
+        "estimate": "830",
+        "year": "2022",
+        "estimate_2": "788",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/23px-Flag_of_Samoa.svg.png"
+    },
+    {
+        "name": "American Samoa",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "709",
+        "estimate_2": "2021",
+        "year_2": "\u2014"
+    },
+    {
+        "name": "Dominica",
+        "continent": "Americas",
+        "estimate": "599",
+        "year": "2022",
+        "estimate_2": "546",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/23px-Flag_of_Dominica.svg.png"
+    },
+    {
+        "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "continent": "Africa",
+        "estimate": "506",
+        "year": "2022",
+        "estimate_2": "547",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/23px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png"
+    },
+    {
+        "name": "Tonga",
+        "continent": "Oceania",
+        "estimate": "501",
+        "year": "2022",
+        "estimate_2": "469",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/23px-Flag_of_Tonga.svg.png"
+    },
+    {
+        "name": "Micronesia",
+        "continent": "Oceania",
+        "estimate": "428",
+        "year": "2022",
+        "estimate_2": "404",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/23px-Flag_of_the_Federated_States_of_Micronesia.svg.png"
+    },
+    {
+        "name": "Cook Islands",
+        "continent": "Oceania",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "283",
+        "year_2": "2020"
+    },
+    {
+        "name": "Marshall Islands",
+        "continent": "Oceania",
+        "estimate": "271",
+        "year": "2022",
+        "estimate_2": "249",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/23px-Flag_of_the_Marshall_Islands.svg.png"
+    },
+    {
+        "name": "Anguilla",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "258",
+        "year_2": "2020"
+    },
+    {
+        "name": "Palau",
+        "continent": "Oceania",
+        "estimate": "226",
+        "year": "2022",
+        "estimate_2": "218",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/23px-Flag_of_Palau.svg.png"
+    },
+    {
+        "name": "Kiribati",
+        "continent": "Oceania",
+        "estimate": "207",
+        "year": "2022",
+        "estimate_2": "207",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/23px-Flag_of_Kiribati.svg.png"
+    },
+    {
+        "name": "Nauru",
+        "continent": "Oceania",
+        "estimate": "134",
+        "year": "2022",
+        "estimate_2": "133",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/23px-Flag_of_Nauru.svg.png"
+    },
+    {
+        "name": "Montserrat",
+        "continent": "Americas",
+        "estimate": "\u2014",
+        "year": "\u2014",
+        "estimate_2": "68",
+        "year_2": "2020"
+    },
+    {
+        "name": "Tuvalu",
+        "continent": "Oceania",
+        "estimate": "64",
+        "year": "2022",
+        "estimate_2": "63",
+        "year_2": "2021",
+        "flag_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png"
+    }
+]
