@@ -135,7 +135,6 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 type_choices=((0,'Android'),(1,'Ios'))
 class AppVersion(models.Model):
     action_choices=((1,'Soft Update'),(2,'Force Update'),(3,'Maintainence'))
-    id=models.IntegerField(primary_key=True)
     type=models.IntegerField(choices=type_choices,default=0)
     title=models.CharField(max_length=20,default='')
     version=models.CharField(max_length=20,default='')
@@ -167,10 +166,8 @@ class PostalCode(models.Model):
     post_office=models.CharField(_("Post office"), max_length=50)
     postal_pin_code=models.CharField(_("Postal/Pin Code"), max_length=100)
     postal_office_type=models.CharField(_("Post Office Type"), max_length=50)
-    def __str__(self) -> str:
+    def __str__(self):
         return self.district
-    
-
 
 class CurrencyRate(models.Model):
     iso3=models.CharField(_("ISO3"), max_length=50)
@@ -179,11 +176,23 @@ class CurrencyRate(models.Model):
     buy=models.FloatField(_("Buy"))
     sell=models.DurationField(_("Sell"))
 
-
-class ProvinceData(models.Model):
+class ProvinceDistricts(models.Model):
     country=models.CharField(max_length=100,default="Nepal")
-    state=models.CharField(max_length=100,default="")
-    district=models.CharField(_("District"), max_length=50)
-    administration=models.CharField(max_length=100,default="")
-    def __str__(self) -> str:
-        return self.district
+    district=models.CharField(max_length=255,default='')
+    province=models.CharField(max_length=255,default='')
+    def __str__(self):
+        return self.province + " "+ self.district
+    
+class Country(models.Model):
+    country=models.CharField(_("Country"), max_length=150)
+    continent=models.CharField(_("Continent"), max_length=50)
+    estimate=models.CharField(_("Estimate"), max_length=50)
+    year=models.CharField(_("Year"), max_length=50)
+    estimate2=models.CharField(_("Estimate2"), max_length=50)
+    year2=models.CharField(_("Year2"), max_length=50)
+    flag_img=models.URLField(_("flag image"), max_length=200)
+
+    def img_preview(self): #new
+        return mark_safe('<img src = "{url}" height = "80" width="80"/>'.format(
+             url = "https:"+self.flag_img
+         ))

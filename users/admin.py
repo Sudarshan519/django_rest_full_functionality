@@ -38,13 +38,18 @@ admin.site.register(UserDocuments)
 admin.site.register(TermsAndConditions)
 admin.site.register(IntendedUseOfAccount)
 admin.site.register(Ekyc) 
-admin.site.register(ProvinceData)
 admin.site.register(AppVersion)
 admin.site.register(PostalCode)
- 
 admin.site.register(ProfileDocuments)
+admin.site.register(ProvinceDistricts)
+
 class BannersAdmin(admin.ModelAdmin): # new
     readonly_fields = ['img_preview']
     list_display = ['title', 'img_preview']
 # admin.site.register(Banners,BannersAdmin)
 admin.site.site_header='Clone RPS Remit'
+
+class CountryAdmin(admin.ModelAdmin):
+    list_display=["img_preview","country","continent"]
+
+admin.site.register(Country,CountryAdmin)
