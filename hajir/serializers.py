@@ -5,9 +5,9 @@ from django.contrib.auth import authenticate
 class PhoneSerializer(serializers.Serializer):
     phone=serializers.IntegerField(label="Phone",required=True)
     
-class VerifyOtpSerializer(serializers.Serializer):
-    phone=serializers.IntegerField(label="Phone",write_only=True)
-    otp=serializers.IntegerField(label="Otp")
+# class VerifyOtpSerializer(serializers.Serializer):
+#     phone=serializers.IntegerField(label="Phone",write_only=True)
+#     otp=serializers.IntegerField(label="Otp")
 
 
 

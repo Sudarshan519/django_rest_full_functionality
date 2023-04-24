@@ -4,7 +4,9 @@ from django.http import HttpResponse,JsonResponse
 from django.views.generic import CreateView
 from hajir.decorators import IsEmployee, IsEmployer, employee_required
 from users.models import CustomUser
-from drf_yasg.utils import swagger_auto_schema 
+from drf_yasg.utils import swagger_auto_schema
+
+from users.serializers import VerifyOtpSerializer 
 from .serializers import *
 from rest_framework.parsers import JSONParser
 import pyotp

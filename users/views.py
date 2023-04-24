@@ -22,7 +22,8 @@ import pyotp
 import base64
 from drf_yasg.utils import swagger_auto_schema 
 from rest_framework_simplejwt.tokens import RefreshToken
-
+from django.views.decorators.vary import vary_on_cookie
+from django.views.decorators.cache import cache_page
 
 # This class returns the string needed to generate the key
 class generateKey:
@@ -463,13 +464,14 @@ def get_emoji_flag(request):
         # d['name']:d['flag'] for d in data,
         # "allflags": (print_all_flags())
         })
-
+@api_view(['GET'])
+@cache_page(60 * 60*24)
 def get_country_list(request):
     f=open('./country_gdp.json')
     data=json.load(f)
-
+    countries=[]
     for i in data:
-        print(i.get("flag_img","//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png"))
+        # print(i.get("flag_img","//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/23px-Flag_of_Tuvalu.svg.png"))
         country=Country()
         country.country=i['name']
         country.continent=i['continent']
@@ -480,9 +482,13 @@ def get_country_list(request):
         country.year2=i['year_2']
         country.estimate2=i['estimate_2']
         # print(country.district)
-        country.save()
+        # country.save()
+        countries.append(country)
+        countries.append(country)
+    Country.objects.bulk_create(countries)
     return JsonResponse({"data":data})
 from .exchange_rates import get_rates
+@api_view(['GET'])
 def get_rates_list(request):
     data=(get_rates())
     objects=[]
