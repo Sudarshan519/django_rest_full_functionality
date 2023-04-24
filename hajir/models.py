@@ -28,15 +28,25 @@ class BusinessLeaveDays(models.Model):
     day=models.CharField(_("Day"),choices=Days.choices,default=1, max_length=50,null=True)
     def __str__(self):
         return self.day
+class LeaveDays(models.Model):
+    name=models.CharField(_("Leave Name"), max_length=50)
+    leave_date=models.DateField(_("Leave Date"), auto_now=False, auto_now_add=False)
+    company=models.ForeignKey("hajir.Company",  related_name="companyleavedays",null=True, on_delete=models.CASCADE)
+    def __str__(self) -> str:
+        return self.name
+class SpecialLeaveDays(LeaveDays):
+    pass
     
-class SpecialLeaveDays(models.Model):
-    name=models.CharField(_("Leave Name"), max_length=50)
-    leave_date=models.DateField(_("Leave Date"), auto_now=False, auto_now_add=False)
-    company=models.ForeignKey("hajir.Company",  related_name="sickleavedays",null=True, on_delete=models.CASCADE)
-class GovernmentLeaveDays(models.Model):
-    name=models.CharField(_("Leave Name"), max_length=50)
-    leave_date=models.DateField(_("Leave Date"), auto_now=False, auto_now_add=False)
-    company=models.ForeignKey("hajir.Company", related_name='gov',null=True, on_delete=models.CASCADE)
+    # name=models.CharField(_("Leave Name"), max_length=50)
+    # leave_date=models.DateField(_("Leave Date"), auto_now=False, auto_now_add=False)
+    # company=models.ForeignKey("hajir.Company",  related_name="sickleavedays",null=True, on_delete=models.CASCADE)
+class GovernmentLeaveDays(LeaveDays):
+    pass
+    # def __str__(self) -> str:
+    #     return self.name
+    # name=models.CharField(_("Leave Name"), max_length=50)
+    # leave_date=models.DateField(_("Leave Date"), auto_now=False, auto_now_add=False)
+    # company=models.ForeignKey("hajir.Company", related_name='gov',null=True, on_delete=models.CASCADE)
 class SickLeave(models.Model):
     CHOICES=(('m','Monthly'),('w','Weekly'),('y','Yearly'))
     total_days=models.IntegerField(_("Total Leave Days"))
@@ -53,7 +63,7 @@ class Company(models.Model):
     class StaffCode(models.TextChoices):
         auto='AUTO',_('Auto')
         custom='Custom',_('Custom')
-    owner=models.ForeignKey("users.CustomUser", verbose_name=_(""), on_delete=models.CASCADE)
+    owner=models.ForeignKey("users.CustomUser", verbose_name=_("Owner"), on_delete=models.CASCADE,default=1)
     name=models.CharField(_("Company Name"), max_length=100)
     phone=models.IntegerField(_("Phone"))
     address=models.CharField(_("Address"), max_length=50)
@@ -65,6 +75,8 @@ class Company(models.Model):
     access_network=models.CharField(_("Access Network"), max_length=50)
     probablation_peroid=models.CharField(_("Probablation Peroid"),choices=(('1',"1 months"),('3',"3 Months"),('6',"6 Months")),default=3, max_length=50)
     is_active=models.BooleanField(_("Is Active"),default=True)
+    total_employees=models.IntegerField(_("Total Employees"),default=0)
+    total_approvers=models.IntegerField(_("Total Approvers"),default=0)
     def __str__(self):
         return self.name
     #models.CharField(_("Office hour start"), max_length=50)
@@ -74,10 +86,10 @@ class Company(models.Model):
     # special_leave_days=models.ForeignKey("hajir.SpecialLeaveDays", verbose_name=_("special leave"), on_delete=models.CASCADE)
 
 class Employee(models.Model):
-    employee_id=models.AutoField(_("employee id"),primary_key=True)
-    employee_user=models.ForeignKey("users.CustomUser", verbose_name=_("Employee User"), on_delete=models.CASCADE,null=True,blank=True)
-    # company=models.ManyToManyField("hajir.Company", verbose_name=_("Company List"))#
-    company=models.ForeignKey("hajir.Company", verbose_name=_("EmployeCompany"), on_delete=models.CASCADE,null=True)
+    # employee_id=models.AutoField(_("employee id"),primary_key=True)
+    employee_user=models.OneToOneField("users.CustomUser", verbose_name=_("Employee User"), on_delete=models.CASCADE,null=True,blank=True)
+    # company=models.ManyToManyField("hajir.Company", verbose_name=_("Company List"),null=True)#
+    company=models.ForeignKey("hajir.Company", verbose_name=_("EmployeCompany"), on_delete=models.CASCADE,null=True,blank=True)
     fullname=models.CharField(_("Full Name"), max_length=50)
     designation=models.CharField(_("Designation"), max_length=50)
     mobilenumber=models.IntegerField(_("Mobile number"))
@@ -94,15 +106,30 @@ class Employee(models.Model):
     casual_leave=models.IntegerField(_("Casual Leave Days"),default=0)
     staffcode=models.CharField(_("Staff Code"), max_length=50,blank=True,null=True)
     is_active_emp=models.BooleanField(_("Is Active"),default=True)
+    def __str__(self) -> str:
+        return self.fullname
 # Employee._meta.get_field('is_employee').default=True
 # Employee._meta.get_field('is_employer').default=False
 class Attendance(models.Model):
-    login_date=models.DateTimeField(_("Login Date"), auto_now=False, auto_now_add=True)
+    # is_leave=models.BooleanField(_("Leave"),default=False)
+    employee=models.ForeignKey("users.CustomUser", verbose_name=_("Employee"), on_delete=models.CASCADE,null=True,blank=True)
+    company=models.ForeignKey("hajir.Company", verbose_name=_("AttendanceCompany"), on_delete=models.CASCADE,default=1)
+    login_date=models.DateTimeField(_("Login Date"), auto_now=False, auto_now_add=False)
     login_time=models.TimeField(_("Login Time"), auto_now=False, auto_now_add=False )
     logout_time=models.TimeField(_("Logout Time"), auto_now=False, auto_now_add=False,)
     break_start_time=models.TimeField(_("Break Start Time"), auto_now=False, auto_now_add=False,)
     break_end_time=models.TimeField(_("Break End Time"), auto_now=False, auto_now_add=False,)
+    class Meta:
+        unique_together=('login_date','employee')
+    def __str__(self) -> str:
+        return str(self.login_date.strftime("%m/%d/%Y"))+" " + self.employee.email
 class Invitations(models.Model):
     company=models.ForeignKey("hajir.Company",  related_name="company",null=True, on_delete=models.CASCADE)
-    employee=models.ForeignKey("hajir.Employee", verbose_name=_(""), on_delete=models.CASCADE)
+    employee=models.ForeignKey("hajir.Employee", verbose_name=_("Employe"), on_delete=models.CASCADE)
+    accepted=models.BooleanField(_("Accepted"),default=False)
+    class Meta:
+        ordering=('-company',)
+    def __str__(self) -> str:
+        return self.company.name +"Pvt. Ltd invitation for Employee"+self.employee.fullname
     
+ 

@@ -128,8 +128,11 @@ from . import views
 urlpatterns = [
      path("ip-addr/", views.get_ip_address, name="ip address"),
    path("login/",views.login),
+   path("employee/dashboard/",views.EmployeeDashboard.as_view()),
+   path("employee/accept-invitation",views.AcceptInvitation.as_view()),
    path("dashboard/",views.employee_dashboard),
    path("throttle/",views.view),
+   path("weekly-report",views.get_weekly_report),
    # path("dashboard/",views.EmployeeDashboard.as_view()),
    path("verify-otp/",views.verify_phone),
    path('swagger/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),

@@ -1,5 +1,5 @@
 from rest_framework.decorators import api_view, schema
-from django.shortcuts import render 
+from django.shortcuts import get_list_or_404, render 
 from django.http import HttpResponse,JsonResponse
 from django.views.generic import CreateView
 from hajir.decorators import IsEmployee, IsEmployer, employee_required
@@ -12,6 +12,8 @@ import datetime
 import base64
 from rest_framework_simplejwt.tokens import RefreshToken
 
+from django.views.decorators.vary import vary_on_cookie
+from django.views.decorators.cache import cache_page
 # OTP HELPERS
 class generateKey:
     @staticmethod
@@ -129,10 +131,42 @@ class EmployeeDashboard(APIView):
     # @login_required
     # @employee_required
     def get(self, request, format=None):
-        return Response({"status":True})
+        employee=Employee.objects.get(employee_user=request.user)
+        # all_invitations=Invitations.objects.all()
+        active_invitations=Invitations.objects.filter(employee=employee,accepted=False)
+        inactive_invitations=Invitations.objects.filter(employee=employee,accepted=True)
+        
+        print(inactive_invitations)
+        company_list=Company.objects.all()
+        serializer=InvitationSerializer(active_invitations,many=True)
+        active_companies=InvitationSerializer(inactive_invitations,many=True)
+        return Response({"status":True,"inactive":serializer.data,"active":active_companies.data})
+class AcceptInvitation(APIView):
+    @staticmethod
+    @swagger_auto_schema(tags=['accept-invitation'], operation_description='accept invitation',request_body=AcceptInvitationSerializer)
+    def post(request,format=None): 
+        serializer=AcceptInvitationSerializer(data=request.data)
+        employee=Employee.objects.get(employee_user=request.user)
+        if serializer.is_valid():
+            print(True)
+        else:
+            return Response( serializer.errors)
+        try:
+            id=request.data['id']
+            invitation=Invitations.objects.get(id=id)
+             
+            invitation.accepted=request.data['accept']
+            invitation.save()
+            # data=get_list_or_404(companyInvitation)
+        except:
+            return Response({"error":"Invalid Invitation"},status=404)
+        return Response({})
+    
 
 class EmployerDashboard(APIView):
     permission_classes = [permissions.IsAuthenticated,IsEmployer]
+    @cache_page(60 * 15)
+    @vary_on_cookie
     def get(self,request,format=None):
         return Response({"status":True})
 
@@ -146,3 +180,21 @@ class OncePerDayUserThrottle(UserRateThrottle):
 @throttle_classes([OncePerDayUserThrottle])
 def view(request):
     return Response({"message": "Hello for today! See you tomorrow!"})
+
+def print_cache():
+    sum=0
+    for i in range(100000):
+        sum=sum+i
+    return sum
+
+@api_view(['GET'])
+@cache_page(60 * 60*24)
+@vary_on_cookie
+@permission_classes([permissions.IsAuthenticated,IsEmployee])
+def get_weekly_report(request):
+    print_cache()
+    attendance=Attendance.objects.filter(login_date__gte=datetime.datetime.now()-datetime.timedelta(days=7),employee=request.user)#.filter(login_date__gte=datetime.now()-datetime.timedelta(days=7))
+    serializer=AttendanceSerializer(attendance,many=True)
+
+    return Response(serializer.data)
+
