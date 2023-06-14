@@ -71,10 +71,11 @@ public_schema_view = get_schema_view(   openapi.Info(
                                      urlconf='hajir.urls',
                                      generator_class=PublicAPISchemeGenerator)
 urlpatterns = [
+    path("chat/<str:chat_box_name>/", views.chat_box, name="chat"),
     #   path('hajir/',include('hajir.urls')),
     # path('hajir/', public_schema_view.with_ui('swagger', cache_timeout=0), name='schema-public'),
     path('home',views.home),
-    
+    path('api/password_reset/', include('django_rest_passwordreset.urls', namespace='password_reset')),
     path('latest-transactions',views.get_latest_transactions),
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
@@ -98,3 +99,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
    
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += router.urls

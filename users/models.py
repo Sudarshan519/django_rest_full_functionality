@@ -52,7 +52,7 @@ class Profile(models.Model):
         return self.user
 
 class ProfileDocuments(models.Model):
-    
+
     user=models.ForeignKey("users.CustomUser",default=1,on_delete=models.CASCADE)
     created_at=models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now=True)

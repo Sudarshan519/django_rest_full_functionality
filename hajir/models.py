@@ -16,16 +16,19 @@ from users.models import CustomUser
 #     staff_code=models.CharField(_("Staff Code"), max_length=50)
     
 class BusinessLeaveDays(models.Model):
-    class Days(models.TextChoices):
-        sunday='sun',_("Sunday")
-        monday='mon',_("Monday")
-        tuesday='tue',_("Tuesday")
-        wednesday='wed',_("Wednesday")
-        thursday='thu',_("Thursday")
-        friday='fri',_("Friday")
-        saturday='sat',_("Saturday")
+    # class Days(models.TextChoices):
+        # sunday='sun',_("Sunday")
+        # monday='mon',_("Monday")
+        # tuesday='tue',_("Tuesday")
+        # wednesday='wed',_("Wednesday")
+        # thursday='thu',_("Thursday")
+        # friday='fri',_("Friday")
+        # saturday='sat',_("Saturday")
     company_name=models.ForeignKey("hajir.Company",  related_name="business",null=True, on_delete=models.CASCADE)
-    day=models.CharField(_("Day"),choices=Days.choices,default=1, max_length=50,null=True)
+    day=models.CharField(_("Day"),
+                         choices=
+                      (('sun',"Sunday"),('mon',"Monday")),  #  Days.choices,
+                         default=1, max_length=50,null=True)
     def __str__(self):
         return self.day
 class LeaveDays(models.Model):
@@ -60,15 +63,16 @@ class SickLeave(models.Model):
  
  
 class Company(models.Model):
-    class StaffCode(models.TextChoices):
-        auto='AUTO',_('Auto')
-        custom='Custom',_('Custom')
+    # class StaffCode(models.TextChoices):
+    #     auto='AUTO',_('Auto')
+    #     custom='Custom',_('Custom')
     owner=models.ForeignKey("users.CustomUser", verbose_name=_("Owner"), on_delete=models.CASCADE,default=1)
     name=models.CharField(_("Company Name"), max_length=100)
     phone=models.IntegerField(_("Phone"))
     address=models.CharField(_("Address"), max_length=50)
     staffcode=models.CharField(_("Staff Code Type"),
-    choices=StaffCode.choices,max_length=50,default=StaffCode.auto,)
+    choices=(('a','A')) ,#StaffCode.choices,
+    max_length=50,default='a',)
     
     office_hour_start=models.TimeField(_("Office hour start"), auto_now=False, auto_now_add=False)
     office_hour_end =models.TimeField(_("Office hour end"), )
@@ -79,6 +83,8 @@ class Company(models.Model):
     total_approvers=models.IntegerField(_("Total Approvers"),default=0)
     def __str__(self):
         return self.name
+    
+    
     #models.CharField(_("Office hour start"), max_length=50)
     # sick_leave=models.ForeignKey("hajir.SickLeave", verbose_name=_("sick leave"),null=True, on_delete=models.CASCADE)
     #   sunday =1 and so on

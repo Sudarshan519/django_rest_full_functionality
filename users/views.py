@@ -25,6 +25,12 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from django.views.decorators.vary import vary_on_cookie
 from django.views.decorators.cache import cache_page
 
+
+from django.shortcuts import render
+
+def chat_box(request, chat_box_name):
+    # we will get the chatbox name from the url
+    return render(request, "chatbox.html", {"chat_box_name": chat_box_name})
 # This class returns the string needed to generate the key
 class generateKey:
     @staticmethod
@@ -411,18 +417,21 @@ def store_postal_codes_Nepal(request):
     # PostalCode.objects.bulk_create(postal)
     # return JsonResponse({"data":data})
     return JsonResponse({"data":postal})
+@cache_page(60 * 60*24)
 @api_view(['GET'])
 def get_disticts_provinces(request):
     f=open('./province_districts.json')
     ProvinceDistricts.objects.all().delete()
     data=json.load(f)
-    
+    provinces=[]
     for i in data:
         province_district=ProvinceDistricts()
         province_district.district=i['district']
         province_district.province=i['province']
-        print(province_district.district)
-        province_district.save()
+        # print(province_district.district)
+        # province_district.save()
+        provinces.append(province_district)
+    ProvinceDistricts.objects.bulk_create(provinces)
     return JsonResponse({"data":data})
 
 from unicodedata import lookup
@@ -545,3 +554,61 @@ def profile(request):
 # def get_fields(request):
 #     return get_model_fields(CurrencyRate)
     
+
+
+class ChangePasswordView(generics.UpdateAPIView):
+    """
+    An endpoint for changing password.
+    """
+    serializer_class = ChangePasswordSerializer
+    model = User
+    permission_classes = (IsAuthenticated,)
+
+    def get_object(self, queryset=None):
+        obj = self.request.user
+        return obj
+
+    def update(self, request, *args, **kwargs):
+        self.object = self.get_object()
+        serializer = self.get_serializer(data=request.data)
+
+        if serializer.is_valid():
+            # Check old password
+            if not self.object.check_password(serializer.data.get("old_password")):
+                return Response({"old_password": ["Wrong password."]}, status=status.HTTP_400_BAD_REQUEST)
+            # set_password also hashes the password that the user will get
+            self.object.set_password(serializer.data.get("new_password"))
+            self.object.save()
+            response = {
+                'status': 'success',
+                'code': status.HTTP_200_OK,
+                'message': 'Password updated successfully',
+                'data': []
+            }
+
+            return Response(response)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+
+from django.dispatch import receiver
+from django.urls import reverse
+from django_rest_passwordreset.signals import reset_password_token_created
+from django.core.mail import send_mail  
+
+
+@receiver(reset_password_token_created)
+def password_reset_token_created(sender, instance, reset_password_token, *args, **kwargs):
+
+    email_plaintext_message = "{}?token={}".format(reverse('password_reset:reset-password-request'), reset_password_token.key)
+
+    send_mail(
+        # title:
+        "Password Reset for {title}".format(title="Some website title"),
+        # message:
+        email_plaintext_message,
+        # from:
+        "noreply@somehost.local",
+        # to:
+        [reset_password_token.user.email]
+    )

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 'djoser'
     ,
+    'django_rest_passwordreset',
     'users', 
     'rest_framework',
      'rest_framework.authtoken',
@@ -48,7 +49,8 @@ INSTALLED_APPS = [
     'pyotp',
     'dashboard',
     'bootstrap5',
-    'hajir'
+    'hajir',
+    'channels'
   
 ]
 
@@ -60,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'rps_rest.urls'
@@ -201,3 +204,15 @@ SWAGGER_SETTINGS = {
          }
       }
    }
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+
+ASGI_APPLICATION = "project.routing.application" #routing.py will be created later
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': "channels.layers.InMemoryChannelLayer"
+        }
+    }

@@ -3,6 +3,18 @@ from rest_framework import serializers
 from .models import *
 import django.contrib.auth.password_validation as validators
 from django.contrib.auth import authenticate
+
+
+class ChangePasswordSerializer(serializers.Serializer):
+    model = User
+
+    """
+    Serializer for password change endpoint.
+    """
+    old_password = serializers.CharField(required=True)
+    new_password = serializers.CharField(required=True)
+
+
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     profileDocuments = serializers.HyperlinkedRelatedField(many=True, view_name='users:profileDocuments', read_only=True)
     class Meta:
