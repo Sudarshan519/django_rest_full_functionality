@@ -71,7 +71,7 @@ class Company(models.Model):
     phone=models.IntegerField(_("Phone"))
     address=models.CharField(_("Address"), max_length=50)
     staffcode=models.CharField(_("Staff Code Type"),
-    choices=(('a','A')) ,#StaffCode.choices,
+     
     max_length=50,default='a',)
     
     office_hour_start=models.TimeField(_("Office hour start"), auto_now=False, auto_now_add=False)

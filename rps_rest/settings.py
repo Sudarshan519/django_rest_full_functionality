@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'dashboard',
     'bootstrap5',
     'hajir',
-    'channels'
+    # 'channels'
   
 ]
 
