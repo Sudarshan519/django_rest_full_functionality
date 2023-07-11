@@ -82,7 +82,7 @@ class LoginSerializer(serializers.Serializer):
         # Take username and password from request
         email = attrs.get('email')
         password = attrs.get('password')
-
+        
         if email and password:
             # Try to authenticate the user using Django auth framework.
             user = authenticate(request=self.context.get('request'),
@@ -131,3 +131,18 @@ class PostalCodeSerializer(serializers.ModelSerializer):
     class Meta:
         model=PostalCode
         exclude=()
+import re
+class PhoneEmailSerializer(serializers.ModelSerializer):
+    phone_email=serializers.CharField()
+    def validate_phone_number(self, value):
+        # Define the regex pattern for phone number validation
+        pattern = r'^\+\d{1,3}-\d{3}-\d{3}-\d{4}$'
+        emailpattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+        # Apply the regex pattern to the phone number
+        if re.match(pattern, value):
+            return value
+            #raise serializers.ValidationError('Invalid phone number.')
+        elif re.match(emailpattern, value):
+            return value
+        # Return the validated phone number
+        raise serializers.ValidationError('Invalid phone/email number.')

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 'djoser'
     ,
+    
     'django_rest_passwordreset',
     'users', 
     'rest_framework',
