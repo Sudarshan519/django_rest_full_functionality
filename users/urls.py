@@ -97,6 +97,7 @@ urlpatterns = [
     path('get_rates_list',views.get_rates_list),
     path('provinces_district/',views.get_disticts_provinces),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('user-orders',views.allproducts)
    
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

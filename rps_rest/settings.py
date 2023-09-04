@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     'dashboard',
     'bootstrap5',
     'hajir',
+    'orders',
+    'products'
     # 'channels'
   
 ]

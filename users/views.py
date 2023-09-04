@@ -612,3 +612,29 @@ def password_reset_token_created(sender, instance, reset_password_token, *args, 
         # to:
         [reset_password_token.user.email]
     )
+
+
+from django.db.models import F, Sum
+from orders.models import  Order
+
+from products.models import Product
+from django.core import serializers
+@api_view(['GET'])
+def allproducts(request):
+    
+
+    # Assuming you have a specific user object (replace with the actual user)
+    user = CustomUser.objects.get(email='a')
+
+    # Annotate each product with the total_price based on the quantity ordered by the user
+    product_list = Product.objects.filter(order__user=user).annotate(
+        total_price=Sum(F('order__quantity') * F('price'), output_field=models.DecimalField(max_digits=10, decimal_places=2)),
+    quantity_ordered=F('order__quantity'),
+    order_id=F('order__id')
+    ).values()
+
+    # Iterate through the product_list and access the total_price for each product
+    # for product in product_list:
+    #     print(f"Product: {product.name}, Total Price for {user.email}: {product.total_price}")
+    return JsonResponse({"products": list(product_list)})
+    # return JsonResponse( serializers.serialize('json', product_list, fields="__all__"),safe=False)
