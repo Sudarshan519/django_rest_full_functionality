@@ -3,6 +3,8 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
+ 
+
 from .managers import CustomUserManager
 
 
@@ -283,6 +285,26 @@ class TransactionType(models.Model):
     transaction_type=models.IntegerField(_("Transactions type"),choices=CHOICES)
     name=models.CharField(_("name"), max_length=50)
     account_number=models.IntegerField(_("Account Number"))
+    def __str__(self) -> str:
+        return self.CHOICES[self.transaction_type][1]
+    
+class Recipient(models.Model):
+    name=models.CharField(_("name"), max_length=50)
+    phone=models.CharField(_("phone"), max_length=50,default='')
+    def __str__(self) -> str:
+        return self.name
+class RecipientTransactionType(models.Model):
+
+    CHOICES=((0,"Credit Card"),(2,"Bank"),(3,"Cash"),(4,"Wallet"))
+    transaction_type=models.IntegerField(_("Transactions type"),choices=CHOICES)
+    name=models.CharField(_("name"), max_length=50)
+    account_number=models.IntegerField(_("WalletID/Account Number"),null=True,blank=True)
+    phone=models.CharField(_("phone"), max_length=50,default='')
+    address= models.CharField(_("address"), max_length=50,default='')
+    recpipient=models.ForeignKey("users.Recipient",   on_delete=models.CASCADE,default=0)
+    def __str__(self) -> str:
+        return self.CHOICES[self.transaction_type][1]+str(self.account_number)
+
     # account_holder_name=models.CharField(_("Account Name"), max_length=150)
 from django.core.validators import MaxValueValidator, MinValueValidator
 class Transactions(models.Model):
@@ -294,6 +316,16 @@ class Transactions(models.Model):
     charge_amount=models.FloatField(_("Charge Amount"),default=50.0)
     transaction_type=models.ForeignKey("users.TransactionType",   on_delete=models.CASCADE)
     remarks=models.CharField(_("Remarks"), max_length=150)
+    coupon_code=models.CharField(_("Coupon Code"), max_length=150,null=True) 
+    recipient=models.ForeignKey("users.Recipient", max_length=150,default=0,on_delete=models.SET_NULL,null=True)
+    recipient_transaction_type=models.ForeignKey("users.RecipientTransactionType",   on_delete=models.CASCADE)
+
+    def calculate_total_amount(self):
+        return self.amount - self.discount
+
+    def apply_coupon_discount(self, coupon):
+        if coupon and coupon.is_valid():
+            self.discount = coupon.calculate_discount(self.amount)
 
 
 class EkycType(models.Model):

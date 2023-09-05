@@ -1,0 +1,31 @@
+<!-- hotels/templates/hotels/room_list_with_images_and_bookings.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rooms List with Images and Bookings</title>
+</head>
+
+<body>
+    <h1>Rooms List with Images and Bookings</h1>
+    <ul>
+        {% for room in rooms %}
+        <li>
+            <h2>{{ room.full_name }}</h2>
+
+            <img src="{{ room.image.url }}" alt="{{ room.full_name }}" height="200px" width="200px">
+            <h3>Total Bookings: {{ room.total_bookings }}</h3>
+            <h3>Bookings:</h3>
+            <ul>
+                {% for booking in room.booking.all %}
+                <li>{{ booking.start_time }} - {{ booking.end_time }} by {{ booking.user }}</li>
+                {% empty %}
+                <li>No bookings for this room</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

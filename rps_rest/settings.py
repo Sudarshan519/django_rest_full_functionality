@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 'djoser'
     ,
+    "corsheaders",
+
     
     'django_rest_passwordreset',
     'users', 
@@ -51,6 +53,12 @@ INSTALLED_APPS = [
     'dashboard',
     'bootstrap5',
     'hajir',
+    'orders',
+    'products',
+    'hotels',
+    'coupon',
+    'nepal_rps_account',
+    'japan_rps_account'
     # 'channels'
   
 ]

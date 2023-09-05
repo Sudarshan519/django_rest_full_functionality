@@ -77,6 +77,8 @@ class CountryAdmin(admin.ModelAdmin):
 
 admin.site.register(Country,CountryAdmin)
 admin.site.register(TransactionType)
+admin.site.register(Recipient)
+admin.site.register(RecipientTransactionType)
 @admin.register(Transactions)
 
 class Transactions(admin.ModelAdmin):
