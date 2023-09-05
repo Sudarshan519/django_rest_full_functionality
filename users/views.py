@@ -43,7 +43,7 @@ def otp_from_email(email):
     return pyotp.HOTP(key) 
 def verifyotp(otp,counter):
     keygen = generateKey()
-    key = base64.b32encode(keygen.returnValue(email).encode())  # Key is generated
+    key = base64.b32encode(keygen.returnValue(otp).encode())  # Key is generated
     OTP = pyotp.HOTP(key)
     return OTP.verify(otp,counter)
 
